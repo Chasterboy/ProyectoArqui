@@ -1,0 +1,174 @@
+m255
+K4
+z2
+!s11e MIXED_VERSIONS
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+d/home/julio/Documents/OAC/CISC/simulation/qsim
+Ehard_block
+Z0 w1683899290
+Z1 DPx4 ieee 16 vital_primitives 0 22 G>kiXP8Q9dRClKfK1Zn7j1
+Z2 DPx11 fiftyfivenm 21 fiftyfivenm_atom_pack 0 22 OTUTkBjTeYVegmIWhVi3N0
+Z3 DPx4 ieee 12 vital_timing 0 22 J>EBealN09f8GzldA[z2>3
+Z4 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z5 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+Z6 DPx11 fiftyfivenm 22 fiftyfivenm_components 0 22 C5K^h=:j[4HI?HO^UkN3:2
+!i122 2
+Z7 dC:/Arquitectura/Practica_7/CISC/simulation/qsim
+Z8 8m68hc11.vho
+Z9 Fm68hc11.vho
+l0
+L35 1
+Vhj[i;a0dD85B`o1JPT^cg2
+!s100 3A]XnMhF<;9mKUe5mn3aM1
+Z10 OV;C;2020.1;71
+32
+Z11 !s110 1683899291
+!i10b 1
+Z12 !s108 1683899291.000000
+Z13 !s90 -work|work|m68hc11.vho|
+Z14 !s107 m68hc11.vho|
+!i113 1
+Z15 o-work work
+Z16 tExplicit 1 CvgOpt 0
+Astructure
+R1
+R2
+R3
+R4
+R5
+R6
+DEx4 work 10 hard_block 0 22 hj[i;a0dD85B`o1JPT^cg2
+!i122 2
+l76
+L54 28
+Va5ClDYec`9chO`Ne0M1NL2
+!s100 >:Wi^nX[YiN=@>>JC6K_83
+R10
+32
+R11
+!i10b 1
+R12
+R13
+R14
+!i113 1
+R15
+R16
+Em68hc11
+Z17 w1685260248
+R2
+R6
+R1
+Z18 DPx6 altera 11 dffeas_pack 0 22 dc5N=DKXMMTVYdUQ@D3FA2
+R3
+R4
+R5
+Z19 DPx6 altera 28 altera_primitives_components 0 22 ca:ehlQAg4;_gVV:^8MAg3
+!i122 102
+Z20 dC:/Users/Eduardo/Desktop/Practica_7/ProyectoArqui/CISC/simulation/qsim
+R8
+R9
+l0
+L37 1
+VKEUT_LD3]1L@>3=H5GTWC2
+!s100 5HnOfX1@6SW6L??iAmh@00
+R10
+32
+Z21 !s110 1685260250
+!i10b 1
+Z22 !s108 1685260250.000000
+R13
+R14
+!i113 1
+R15
+R16
+Astructure
+R2
+R6
+R1
+R18
+R3
+R4
+R5
+R19
+DEx4 work 7 m68hc11 0 22 KEUT_LD3]1L@>3=H5GTWC2
+!i122 102
+l4654
+L58 74013
+VYf2mMW68IQlcYoZYET>af0
+!s100 3@hGFmDS6]ML77_?W<_hG2
+R10
+32
+R21
+!i10b 1
+R22
+R13
+R14
+!i113 1
+R15
+R16
+Em68hc11_vhd_vec_tst
+Z23 w1685260246
+R4
+R5
+!i122 103
+R20
+Z24 8Waveform.vwf.vht
+Z25 FWaveform.vwf.vht
+l0
+L32 1
+VH5II2[k@6_6l]C^DEP`IC2
+!s100 5<h=nVP:_f9=k=GAgFJ_e3
+R10
+32
+Z26 !s110 1685260251
+!i10b 1
+Z27 !s108 1685260251.000000
+Z28 !s90 -work|work|Waveform.vwf.vht|
+Z29 !s107 Waveform.vwf.vht|
+!i113 1
+R15
+R16
+Am68hc11_arch
+R4
+R5
+Z30 DEx4 work 19 m68hc11_vhd_vec_tst 0 22 H5II2[k@6_6l]C^DEP`IC2
+!i122 103
+l73
+Z31 L34 94
+VAO2EaBZSA55fKA1EYE31J2
+!s100 KjOX2oPWS@c1<1DIl4N<U2
+R10
+32
+R26
+!i10b 1
+R27
+R28
+R29
+!i113 1
+R15
+R16
+vm68hc11_vlg_vec_tst
+!s110 1628028667
+!i10b 1
+!s100 bi5kjPT2;=b7BVf2UBTNa3
+IQZ:0cz5Uh5T?<WQk0eMiI3
+VDg1SIo80bB@j0V0VzS_@n1
+d/home/julio/Documents/CISC/simulation/qsim
+w1628028662
+8Waveform.vwf.vt
+FWaveform.vwf.vt
+L0 30
+OV;L;10.4b;61
+r1
+!s85 0
+31
+!s108 1628028667.000000
+!s107 Waveform.vwf.vt|
+!s90 -work|work|Waveform.vwf.vt|
+!i113 1
+R15
