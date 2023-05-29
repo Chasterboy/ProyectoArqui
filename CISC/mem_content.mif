@@ -22,10 +22,24 @@ ADDRESS_RADIX=UNS;
 DATA_RADIX=HEX;
 
 CONTENT BEGIN
-	0    :   C6; --LDAB EXT  
-	1    :   05;  
-	2    :   86;  
-	3    :   05;  --LDAA EXT
-	4    :   7B;  
-	[5..255]  :   00;
+	0    :   B6; --LDAB EXT  
+	1    :   00;  
+	2    :   12;  --RES 
+	3    :   76;  --LDAA EXT
+	4    :   12;  
+	5    :   11; --TEMP 
+	6    :   A7; --STAA
+    7    :   12;
+    8    :   11; --RES 18H
+	9    :   1A; -- CMP
+	10   :   08; --JB (EXT)
+	11   :   00;  
+	12   :   0C; 
+	13   :   86; --LDAA INH
+	14   :   0A;
+	15   :   86; --LDAA INH
+	16   :   0B;
+	17   :   05; --RES 
+    18   :   01; --TEMP 
+	[19..255]  :   00;
 END;

@@ -1,6 +1,6 @@
--- Copyright (C) 2018  Intel Corporation. All rights reserved.
+-- Copyright (C) 2022  Intel Corporation. All rights reserved.
 -- Your use of Intel Corporation's design tools, logic functions 
--- and other software and tools, and its AMPP partner logic 
+-- and other software and tools, and any partner logic 
 -- functions, and any output files from any of the foregoing 
 -- (including device programming or simulation files), and any 
 -- associated documentation or information are expressly subject 
@@ -10,7 +10,8 @@
 -- agreement, including, without limitation, that your use is for
 -- the sole purpose of programming logic devices manufactured by
 -- Intel and sold by Intel or its authorized distributors.  Please
--- refer to the applicable agreement for further details.
+-- refer to the applicable agreement for further details, at
+-- https://fpgasoftware.intel.com/eula.
 
 -- *****************************************************************************
 -- This file contains a Vhdl test bench with test vectors .The test vectors     
@@ -18,7 +19,7 @@
 -- the top level entity of the current Quartus project .The user can use this   
 -- testbench to simulate his design using a third-party simulation tool .       
 -- *****************************************************************************
--- Generated on "08/04/2021 00:19:33"
+-- Generated on "05/28/2023 18:37:33"
                                                              
 -- Vhdl Test Bench(with test vectors) for design  :          m68hc11
 -- 
@@ -43,11 +44,11 @@ SIGNAL Debug_Q : STD_LOGIC_VECTOR(7 DOWNTO 0);
 SIGNAL Debug_Yupa : STD_LOGIC_VECTOR(7 DOWNTO 0);
 SIGNAL Edo_Pres : STD_LOGIC_VECTOR(11 DOWNTO 0);
 SIGNAL IRQn : STD_LOGIC;
+SIGNAL IX : STD_LOGIC_VECTOR(15 DOWNTO 0);
 SIGNAL PC_D : STD_LOGIC_VECTOR(15 DOWNTO 0);
 SIGNAL RESET : STD_LOGIC;
 SIGNAL X_D : STD_LOGIC_VECTOR(15 DOWNTO 0);
 SIGNAL XIRQn : STD_LOGIC;
-SIGNAL Y_D : STD_LOGIC_VECTOR(15 DOWNTO 0);
 SIGNAL Z : STD_LOGIC;
 COMPONENT m68hc11
 	PORT (
@@ -61,11 +62,11 @@ COMPONENT m68hc11
 	Debug_Yupa : OUT STD_LOGIC_VECTOR(7 DOWNTO 0);
 	Edo_Pres : OUT STD_LOGIC_VECTOR(11 DOWNTO 0);
 	IRQn : IN STD_LOGIC;
+	IX : OUT STD_LOGIC_VECTOR(15 DOWNTO 0);
 	PC_D : OUT STD_LOGIC_VECTOR(15 DOWNTO 0);
 	RESET : IN STD_LOGIC;
 	X_D : OUT STD_LOGIC_VECTOR(15 DOWNTO 0);
 	XIRQn : IN STD_LOGIC;
-	Y_D : OUT STD_LOGIC_VECTOR(15 DOWNTO 0);
 	Z : OUT STD_LOGIC
 	);
 END COMPONENT;
@@ -83,11 +84,11 @@ BEGIN
 	Debug_Yupa => Debug_Yupa,
 	Edo_Pres => Edo_Pres,
 	IRQn => IRQn,
+	IX => IX,
 	PC_D => PC_D,
 	RESET => RESET,
 	X_D => X_D,
 	XIRQn => XIRQn,
-	Y_D => Y_D,
 	Z => Z
 	);
 
