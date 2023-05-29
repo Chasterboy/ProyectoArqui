@@ -17,7 +17,7 @@
 -- PROGRAM "Quartus Prime"
 -- VERSION "Version 22.1std.0 Build 915 10/25/2022 SC Lite Edition"
 
--- DATE "05/28/2023 18:37:35"
+-- DATE "05/29/2023 00:19:14"
 
 -- 
 -- Device: Altera 10M50DDF484I7G Package FBGA484
@@ -557,6 +557,7 @@ SIGNAL \inst6|mem~3580_combout\ : std_logic;
 SIGNAL \inst6|mem~295_q\ : std_logic;
 SIGNAL \inst6|mem~3603_combout\ : std_logic;
 SIGNAL \inst6|mem~167_q\ : std_logic;
+SIGNAL \inst6|mem~3716_combout\ : std_logic;
 SIGNAL \inst6|mem~3618_combout\ : std_logic;
 SIGNAL \inst6|mem~39_q\ : std_logic;
 SIGNAL \inst6|mem~2259_combout\ : std_logic;
@@ -712,6 +713,7 @@ SIGNAL \inst6|mem~3462_combout\ : std_logic;
 SIGNAL \inst6|mem~1087_q\ : std_logic;
 SIGNAL \inst6|mem~3531_combout\ : std_logic;
 SIGNAL \inst6|mem~575_q\ : std_logic;
+SIGNAL \inst6|mem~3717_combout\ : std_logic;
 SIGNAL \inst6|mem~3612_combout\ : std_logic;
 SIGNAL \inst6|mem~63_q\ : std_logic;
 SIGNAL \inst6|mem~2297_combout\ : std_logic;
@@ -819,6 +821,7 @@ SIGNAL \inst6|mem~3551_combout\ : std_logic;
 SIGNAL \inst6|mem~567_q\ : std_logic;
 SIGNAL \inst6|mem~3463_combout\ : std_logic;
 SIGNAL \inst6|mem~1079_q\ : std_logic;
+SIGNAL \inst6|mem~3718_combout\ : std_logic;
 SIGNAL \inst6|mem~3623_combout\ : std_logic;
 SIGNAL \inst6|mem~55_q\ : std_logic;
 SIGNAL \inst6|mem~2323_combout\ : std_logic;
@@ -1081,7 +1084,6 @@ SIGNAL \inst6|mem~3625_combout\ : std_logic;
 SIGNAL \inst6|mem~111_q\ : std_logic;
 SIGNAL \inst6|mem~3624_combout\ : std_logic;
 SIGNAL \inst6|mem~79_q\ : std_logic;
-SIGNAL \inst6|mem~3717_combout\ : std_logic;
 SIGNAL \inst6|mem~3626_combout\ : std_logic;
 SIGNAL \inst6|mem~47_q\ : std_logic;
 SIGNAL \inst6|mem~2386_combout\ : std_logic;
@@ -1333,9 +1335,9 @@ SIGNAL \inst6|mem~566_q\ : std_logic;
 SIGNAL \inst6|mem~2469_combout\ : std_logic;
 SIGNAL \inst6|mem~590_q\ : std_logic;
 SIGNAL \inst6|mem~2470_combout\ : std_logic;
-SIGNAL \inst6|mem~3718_combout\ : std_logic;
 SIGNAL \inst6|mem~70_q\ : std_logic;
 SIGNAL \inst6|mem~62_q\ : std_logic;
+SIGNAL \inst6|mem~3719_combout\ : std_logic;
 SIGNAL \inst6|mem~54_q\ : std_logic;
 SIGNAL \inst6|mem~2471_combout\ : std_logic;
 SIGNAL \inst6|mem~78_q\ : std_logic;
@@ -1442,10 +1444,8 @@ SIGNAL \inst6|mem~558_q\ : std_logic;
 SIGNAL \inst6|mem~2512_combout\ : std_logic;
 SIGNAL \inst6|mem~38_q\ : std_logic;
 SIGNAL \inst6|mem~30_q\ : std_logic;
-SIGNAL \inst6|mem~3719_combout\ : std_logic;
 SIGNAL \inst6|mem~22_q\ : std_logic;
 SIGNAL \inst6|mem~2513_combout\ : std_logic;
-SIGNAL \inst6|mem~3720_combout\ : std_logic;
 SIGNAL \inst6|mem~46_q\ : std_logic;
 SIGNAL \inst6|mem~2514_combout\ : std_logic;
 SIGNAL \inst6|mem~2515_combout\ : std_logic;
@@ -1871,33 +1871,27 @@ SIGNAL \inst6|mem~2677_combout\ : std_logic;
 SIGNAL \inst6|mem~2678_combout\ : std_logic;
 SIGNAL \inst6|mem~69_q\ : std_logic;
 SIGNAL \inst6|mem~101_q\ : std_logic;
-SIGNAL \inst6|mem~3721_combout\ : std_logic;
 SIGNAL \inst6|mem~37_q\ : std_logic;
 SIGNAL \inst6|mem~2679_combout\ : std_logic;
 SIGNAL \inst6|mem~133_q\ : std_logic;
 SIGNAL \inst6|mem~2680_combout\ : std_logic;
-SIGNAL \inst6|mem~3722_combout\ : std_logic;
 SIGNAL \inst6|mem~93_q\ : std_logic;
-SIGNAL \inst6|mem~3723_combout\ : std_logic;
 SIGNAL \inst6|mem~61_q\ : std_logic;
 SIGNAL \inst6|mem~29_q\ : std_logic;
 SIGNAL \inst6|mem~2681_combout\ : std_logic;
 SIGNAL \inst6|mem~125_q\ : std_logic;
 SIGNAL \inst6|mem~2682_combout\ : std_logic;
-SIGNAL \inst6|mem~3724_combout\ : std_logic;
+SIGNAL \inst6|mem~3720_combout\ : std_logic;
 SIGNAL \inst6|mem~53_q\ : std_logic;
-SIGNAL \inst6|mem~3725_combout\ : std_logic;
 SIGNAL \inst6|mem~85_q\ : std_logic;
-SIGNAL \inst6|mem~3726_combout\ : std_logic;
 SIGNAL \inst6|mem~21_q\ : std_logic;
 SIGNAL \inst6|mem~2683_combout\ : std_logic;
 SIGNAL \inst6|mem~117_q\ : std_logic;
 SIGNAL \inst6|mem~2684_combout\ : std_logic;
 SIGNAL \inst6|mem~2685_combout\ : std_logic;
 SIGNAL \inst6|mem~109_q\ : std_logic;
-SIGNAL \inst6|mem~3727_combout\ : std_logic;
+SIGNAL \inst6|mem~3721_combout\ : std_logic;
 SIGNAL \inst6|mem~77_q\ : std_logic;
-SIGNAL \inst6|mem~3728_combout\ : std_logic;
 SIGNAL \inst6|mem~45_q\ : std_logic;
 SIGNAL \inst6|mem~2686_combout\ : std_logic;
 SIGNAL \inst6|mem~141_q\ : std_logic;
@@ -2320,16 +2314,16 @@ SIGNAL \inst6|mem~2166_combout\ : std_logic;
 SIGNAL \inst6|mem~272_q\ : std_logic;
 SIGNAL \inst6|mem~2167_combout\ : std_logic;
 SIGNAL \inst6|mem~2168_combout\ : std_logic;
+SIGNAL \inst6|mem~3713_combout\ : std_logic;
 SIGNAL \inst6|mem~64_q\ : std_logic;
 SIGNAL \inst6|mem~96_q\ : std_logic;
 SIGNAL \inst6|mem~32_q\ : std_logic;
 SIGNAL \inst6|mem~2169_combout\ : std_logic;
-SIGNAL \inst6|mem~3713_combout\ : std_logic;
 SIGNAL \inst6|mem~128_q\ : std_logic;
 SIGNAL \inst6|mem~2170_combout\ : std_logic;
 SIGNAL \inst6|mem~104_q\ : std_logic;
-SIGNAL \inst6|mem~3714_combout\ : std_logic;
 SIGNAL \inst6|mem~72_q\ : std_logic;
+SIGNAL \inst6|mem~3714_combout\ : std_logic;
 SIGNAL \inst6|mem~40_q\ : std_logic;
 SIGNAL \inst6|mem~2171_combout\ : std_logic;
 SIGNAL \inst6|mem~136_q\ : std_logic;
@@ -2346,7 +2340,6 @@ SIGNAL \inst6|mem~80_q\ : std_logic;
 SIGNAL \inst6|mem~112_q\ : std_logic;
 SIGNAL \inst6|mem~48_q\ : std_logic;
 SIGNAL \inst6|mem~2176_combout\ : std_logic;
-SIGNAL \inst6|mem~3716_combout\ : std_logic;
 SIGNAL \inst6|mem~144_q\ : std_logic;
 SIGNAL \inst6|mem~2177_combout\ : std_logic;
 SIGNAL \inst6|mem~2178_combout\ : std_logic;
@@ -2625,13 +2618,13 @@ SIGNAL \inst6|mem~306_q\ : std_logic;
 SIGNAL \inst6|mem~3107_combout\ : std_logic;
 SIGNAL \inst6|mem~330_q\ : std_logic;
 SIGNAL \inst6|mem~3108_combout\ : std_logic;
-SIGNAL \inst6|mem~3741_combout\ : std_logic;
 SIGNAL \inst6|mem~66_q\ : std_logic;
+SIGNAL \inst6|mem~3729_combout\ : std_logic;
 SIGNAL \inst6|mem~58_q\ : std_logic;
-SIGNAL \inst6|mem~3742_combout\ : std_logic;
+SIGNAL \inst6|mem~3730_combout\ : std_logic;
 SIGNAL \inst6|mem~50_q\ : std_logic;
 SIGNAL \inst6|mem~3109_combout\ : std_logic;
-SIGNAL \inst6|mem~3743_combout\ : std_logic;
+SIGNAL \inst6|mem~3731_combout\ : std_logic;
 SIGNAL \inst6|mem~74_q\ : std_logic;
 SIGNAL \inst6|mem~3110_combout\ : std_logic;
 SIGNAL \inst6|mem~3111_combout\ : std_logic;
@@ -2730,7 +2723,6 @@ SIGNAL \inst6|mem~1634_q\ : std_logic;
 SIGNAL \inst6|mem~3148_combout\ : std_logic;
 SIGNAL \inst6|mem~602_q\ : std_logic;
 SIGNAL \inst6|mem~1114_q\ : std_logic;
-SIGNAL \inst6|mem~3744_combout\ : std_logic;
 SIGNAL \inst6|mem~90_q\ : std_logic;
 SIGNAL \inst6|mem~3149_combout\ : std_logic;
 SIGNAL \inst6|mem~1626_q\ : std_logic;
@@ -2817,7 +2809,6 @@ SIGNAL \inst6|mem~1194_q\ : std_logic;
 SIGNAL \inst6|mem~3182_combout\ : std_logic;
 SIGNAL \inst6|mem~162_q\ : std_logic;
 SIGNAL \inst6|mem~154_q\ : std_logic;
-SIGNAL \inst6|mem~3745_combout\ : std_logic;
 SIGNAL \inst6|mem~146_q\ : std_logic;
 SIGNAL \inst6|mem~3183_combout\ : std_logic;
 SIGNAL \inst6|mem~170_q\ : std_logic;
@@ -2842,13 +2833,13 @@ SIGNAL \inst6|mem~530_q\ : std_logic;
 SIGNAL \inst6|mem~3191_combout\ : std_logic;
 SIGNAL \inst6|mem~554_q\ : std_logic;
 SIGNAL \inst6|mem~3192_combout\ : std_logic;
-SIGNAL \inst6|mem~3746_combout\ : std_logic;
+SIGNAL \inst6|mem~3732_combout\ : std_logic;
 SIGNAL \inst6|mem~34_q\ : std_logic;
+SIGNAL \inst6|mem~3733_combout\ : std_logic;
 SIGNAL \inst6|mem~26_q\ : std_logic;
-SIGNAL \inst6|mem~3747_combout\ : std_logic;
+SIGNAL \inst6|mem~3734_combout\ : std_logic;
 SIGNAL \inst6|mem~18_q\ : std_logic;
 SIGNAL \inst6|mem~3193_combout\ : std_logic;
-SIGNAL \inst6|mem~3748_combout\ : std_logic;
 SIGNAL \inst6|mem~42_q\ : std_logic;
 SIGNAL \inst6|mem~3194_combout\ : std_logic;
 SIGNAL \inst6|mem~3195_combout\ : std_logic;
@@ -2942,14 +2933,12 @@ SIGNAL \inst6|mem~3230_combout\ : std_logic;
 SIGNAL \inst6|mem~3231_combout\ : std_logic;
 SIGNAL \inst6|mem~258_q\ : std_logic;
 SIGNAL \inst6|mem~386_q\ : std_logic;
-SIGNAL \inst6|mem~3749_combout\ : std_logic;
 SIGNAL \inst6|mem~130_q\ : std_logic;
 SIGNAL \inst6|mem~3232_combout\ : std_logic;
 SIGNAL \inst6|mem~514_q\ : std_logic;
 SIGNAL \inst6|mem~3233_combout\ : std_logic;
 SIGNAL \inst6|mem~378_q\ : std_logic;
 SIGNAL \inst6|mem~250_q\ : std_logic;
-SIGNAL \inst6|mem~3750_combout\ : std_logic;
 SIGNAL \inst6|mem~122_q\ : std_logic;
 SIGNAL \inst6|mem~3234_combout\ : std_logic;
 SIGNAL \inst6|mem~506_q\ : std_logic;
@@ -2963,7 +2952,6 @@ SIGNAL \inst6|mem~3237_combout\ : std_logic;
 SIGNAL \inst6|mem~3238_combout\ : std_logic;
 SIGNAL \inst6|mem~394_q\ : std_logic;
 SIGNAL \inst6|mem~266_q\ : std_logic;
-SIGNAL \inst6|mem~3751_combout\ : std_logic;
 SIGNAL \inst6|mem~138_q\ : std_logic;
 SIGNAL \inst6|mem~3239_combout\ : std_logic;
 SIGNAL \inst6|mem~522_q\ : std_logic;
@@ -3094,7 +3082,6 @@ SIGNAL \inst6|mem~1273_q\ : std_logic;
 SIGNAL \inst6|mem~3258_combout\ : std_logic;
 SIGNAL \inst6|mem~185_q\ : std_logic;
 SIGNAL \inst6|mem~217_q\ : std_logic;
-SIGNAL \inst6|mem~3752_combout\ : std_logic;
 SIGNAL \inst6|mem~153_q\ : std_logic;
 SIGNAL \inst6|mem~3259_combout\ : std_logic;
 SIGNAL \inst6|mem~249_q\ : std_logic;
@@ -3121,7 +3108,6 @@ SIGNAL \inst6|mem~769_q\ : std_logic;
 SIGNAL \inst6|mem~3268_combout\ : std_logic;
 SIGNAL \inst6|mem~193_q\ : std_logic;
 SIGNAL \inst6|mem~225_q\ : std_logic;
-SIGNAL \inst6|mem~3753_combout\ : std_logic;
 SIGNAL \inst6|mem~161_q\ : std_logic;
 SIGNAL \inst6|mem~3269_combout\ : std_logic;
 SIGNAL \inst6|mem~257_q\ : std_logic;
@@ -3148,7 +3134,6 @@ SIGNAL \inst6|mem~753_q\ : std_logic;
 SIGNAL \inst6|mem~3278_combout\ : std_logic;
 SIGNAL \inst6|mem~177_q\ : std_logic;
 SIGNAL \inst6|mem~209_q\ : std_logic;
-SIGNAL \inst6|mem~3754_combout\ : std_logic;
 SIGNAL \inst6|mem~145_q\ : std_logic;
 SIGNAL \inst6|mem~3279_combout\ : std_logic;
 SIGNAL \inst6|mem~241_q\ : std_logic;
@@ -3347,7 +3332,7 @@ SIGNAL \inst6|mem~3356_combout\ : std_logic;
 SIGNAL \inst6|mem~1161_q\ : std_logic;
 SIGNAL \inst6|mem~3357_combout\ : std_logic;
 SIGNAL \inst6|mem~3358_combout\ : std_logic;
-SIGNAL \inst6|mem~3755_combout\ : std_logic;
+SIGNAL \inst6|mem~3735_combout\ : std_logic;
 SIGNAL \inst6|mem~65_q\ : std_logic;
 SIGNAL \inst6|mem~97_q\ : std_logic;
 SIGNAL \inst6|mem~33_q\ : std_logic;
@@ -3355,14 +3340,13 @@ SIGNAL \inst6|mem~3359_combout\ : std_logic;
 SIGNAL \inst6|mem~129_q\ : std_logic;
 SIGNAL \inst6|mem~3360_combout\ : std_logic;
 SIGNAL \inst6|mem~89_q\ : std_logic;
-SIGNAL \inst6|mem~3756_combout\ : std_logic;
 SIGNAL \inst6|mem~57_q\ : std_logic;
 SIGNAL \inst6|mem~25_q\ : std_logic;
 SIGNAL \inst6|mem~3361_combout\ : std_logic;
 SIGNAL \inst6|mem~121_q\ : std_logic;
 SIGNAL \inst6|mem~3362_combout\ : std_logic;
+SIGNAL \inst6|mem~3736_combout\ : std_logic;
 SIGNAL \inst6|mem~49_q\ : std_logic;
-SIGNAL \inst6|mem~3757_combout\ : std_logic;
 SIGNAL \inst6|mem~81_q\ : std_logic;
 SIGNAL \inst6|mem~17_q\ : std_logic;
 SIGNAL \inst6|mem~3363_combout\ : std_logic;
@@ -3370,7 +3354,9 @@ SIGNAL \inst6|mem~113_q\ : std_logic;
 SIGNAL \inst6|mem~3364_combout\ : std_logic;
 SIGNAL \inst6|mem~3365_combout\ : std_logic;
 SIGNAL \inst6|mem~105_q\ : std_logic;
+SIGNAL \inst6|mem~3737_combout\ : std_logic;
 SIGNAL \inst6|mem~73_q\ : std_logic;
+SIGNAL \inst6|mem~3738_combout\ : std_logic;
 SIGNAL \inst6|mem~41_q\ : std_logic;
 SIGNAL \inst6|mem~3366_combout\ : std_logic;
 SIGNAL \inst6|mem~137_q\ : std_logic;
@@ -3575,6 +3561,7 @@ SIGNAL \inst6|mem~1723_q\ : std_logic;
 SIGNAL \inst6|mem~2928_combout\ : std_logic;
 SIGNAL \inst6|mem~1083_q\ : std_logic;
 SIGNAL \inst6|mem~571_q\ : std_logic;
+SIGNAL \inst6|mem~3724_combout\ : std_logic;
 SIGNAL \inst6|mem~59_q\ : std_logic;
 SIGNAL \inst6|mem~2929_combout\ : std_logic;
 SIGNAL \inst6|mem~1595_q\ : std_logic;
@@ -3589,7 +3576,6 @@ SIGNAL \inst6|mem~2933_combout\ : std_logic;
 SIGNAL \inst6|mem~2934_combout\ : std_logic;
 SIGNAL \inst6|mem~667_q\ : std_logic;
 SIGNAL \inst6|mem~1179_q\ : std_logic;
-SIGNAL \inst6|mem~3734_combout\ : std_logic;
 SIGNAL \inst6|mem~155_q\ : std_logic;
 SIGNAL \inst6|mem~2935_combout\ : std_logic;
 SIGNAL \inst6|mem~1691_q\ : std_logic;
@@ -3629,7 +3615,6 @@ SIGNAL \inst6|mem~1915_q\ : std_logic;
 SIGNAL \inst6|mem~2949_combout\ : std_logic;
 SIGNAL \inst6|mem~635_q\ : std_logic;
 SIGNAL \inst6|mem~1147_q\ : std_logic;
-SIGNAL \inst6|mem~3735_combout\ : std_logic;
 SIGNAL \inst6|mem~123_q\ : std_logic;
 SIGNAL \inst6|mem~2950_combout\ : std_logic;
 SIGNAL \inst6|mem~1659_q\ : std_logic;
@@ -3707,9 +3692,9 @@ SIGNAL \inst6|mem~1059_q\ : std_logic;
 SIGNAL \inst6|mem~2979_combout\ : std_logic;
 SIGNAL \inst6|mem~1155_q\ : std_logic;
 SIGNAL \inst6|mem~2980_combout\ : std_logic;
-SIGNAL \inst6|mem~3736_combout\ : std_logic;
 SIGNAL \inst6|mem~67_q\ : std_logic;
 SIGNAL \inst6|mem~99_q\ : std_logic;
+SIGNAL \inst6|mem~3725_combout\ : std_logic;
 SIGNAL \inst6|mem~35_q\ : std_logic;
 SIGNAL \inst6|mem~2981_combout\ : std_logic;
 SIGNAL \inst6|mem~131_q\ : std_logic;
@@ -3816,7 +3801,7 @@ SIGNAL \inst6|mem~1811_q\ : std_logic;
 SIGNAL \inst6|mem~3022_combout\ : std_logic;
 SIGNAL \inst6|mem~1043_q\ : std_logic;
 SIGNAL \inst6|mem~531_q\ : std_logic;
-SIGNAL \inst6|mem~3737_combout\ : std_logic;
+SIGNAL \inst6|mem~3726_combout\ : std_logic;
 SIGNAL \inst6|mem~19_q\ : std_logic;
 SIGNAL \inst6|mem~3023_combout\ : std_logic;
 SIGNAL \inst6|mem~1555_q\ : std_logic;
@@ -3844,7 +3829,6 @@ SIGNAL \inst6|mem~1779_q\ : std_logic;
 SIGNAL \inst6|mem~3033_combout\ : std_logic;
 SIGNAL \inst6|mem~1139_q\ : std_logic;
 SIGNAL \inst6|mem~627_q\ : std_logic;
-SIGNAL \inst6|mem~3738_combout\ : std_logic;
 SIGNAL \inst6|mem~115_q\ : std_logic;
 SIGNAL \inst6|mem~3034_combout\ : std_logic;
 SIGNAL \inst6|mem~1651_q\ : std_logic;
@@ -3873,6 +3857,7 @@ SIGNAL \inst6|mem~971_q\ : std_logic;
 SIGNAL \inst6|mem~3045_combout\ : std_logic;
 SIGNAL \inst6|mem~331_q\ : std_logic;
 SIGNAL \inst6|mem~203_q\ : std_logic;
+SIGNAL \inst6|mem~3727_combout\ : std_logic;
 SIGNAL \inst6|mem~75_q\ : std_logic;
 SIGNAL \inst6|mem~3046_combout\ : std_logic;
 SIGNAL \inst6|mem~459_q\ : std_logic;
@@ -3925,7 +3910,7 @@ SIGNAL \inst6|mem~1451_q\ : std_logic;
 SIGNAL \inst6|mem~3065_combout\ : std_logic;
 SIGNAL \inst6|mem~299_q\ : std_logic;
 SIGNAL \inst6|mem~171_q\ : std_logic;
-SIGNAL \inst6|mem~3739_combout\ : std_logic;
+SIGNAL \inst6|mem~3728_combout\ : std_logic;
 SIGNAL \inst6|mem~43_q\ : std_logic;
 SIGNAL \inst6|mem~3066_combout\ : std_logic;
 SIGNAL \inst6|mem~427_q\ : std_logic;
@@ -3953,7 +3938,6 @@ SIGNAL \inst6|mem~1803_q\ : std_logic;
 SIGNAL \inst6|mem~3076_combout\ : std_logic;
 SIGNAL \inst6|mem~1163_q\ : std_logic;
 SIGNAL \inst6|mem~651_q\ : std_logic;
-SIGNAL \inst6|mem~3740_combout\ : std_logic;
 SIGNAL \inst6|mem~139_q\ : std_logic;
 SIGNAL \inst6|mem~3077_combout\ : std_logic;
 SIGNAL \inst6|mem~1675_q\ : std_logic;
@@ -4198,7 +4182,6 @@ SIGNAL \inst6|mem~2827_combout\ : std_logic;
 SIGNAL \inst6|mem~2828_combout\ : std_logic;
 SIGNAL \inst6|mem~220_q\ : std_logic;
 SIGNAL \inst6|mem~348_q\ : std_logic;
-SIGNAL \inst6|mem~3729_combout\ : std_logic;
 SIGNAL \inst6|mem~92_q\ : std_logic;
 SIGNAL \inst6|mem~2829_combout\ : std_logic;
 SIGNAL \inst6|mem~476_q\ : std_logic;
@@ -4231,7 +4214,6 @@ SIGNAL \inst6|mem~452_q\ : std_logic;
 SIGNAL \inst6|mem~2840_combout\ : std_logic;
 SIGNAL \inst6|mem~228_q\ : std_logic;
 SIGNAL \inst6|mem~356_q\ : std_logic;
-SIGNAL \inst6|mem~3730_combout\ : std_logic;
 SIGNAL \inst6|mem~100_q\ : std_logic;
 SIGNAL \inst6|mem~2841_combout\ : std_logic;
 SIGNAL \inst6|mem~484_q\ : std_logic;
@@ -4245,7 +4227,6 @@ SIGNAL \inst6|mem~2844_combout\ : std_logic;
 SIGNAL \inst6|mem~2845_combout\ : std_logic;
 SIGNAL \inst6|mem~388_q\ : std_logic;
 SIGNAL \inst6|mem~260_q\ : std_logic;
-SIGNAL \inst6|mem~3731_combout\ : std_logic;
 SIGNAL \inst6|mem~132_q\ : std_logic;
 SIGNAL \inst6|mem~2846_combout\ : std_logic;
 SIGNAL \inst6|mem~516_q\ : std_logic;
@@ -4253,6 +4234,7 @@ SIGNAL \inst6|mem~2847_combout\ : std_logic;
 SIGNAL \inst6|mem~2848_combout\ : std_logic;
 SIGNAL \inst6|mem~308_q\ : std_logic;
 SIGNAL \inst6|mem~180_q\ : std_logic;
+SIGNAL \inst6|mem~3722_combout\ : std_logic;
 SIGNAL \inst6|mem~52_q\ : std_logic;
 SIGNAL \inst6|mem~2849_combout\ : std_logic;
 SIGNAL \inst6|mem~436_q\ : std_logic;
@@ -4263,7 +4245,6 @@ SIGNAL \inst6|mem~84_q\ : std_logic;
 SIGNAL \inst6|mem~2851_combout\ : std_logic;
 SIGNAL \inst6|mem~468_q\ : std_logic;
 SIGNAL \inst6|mem~2852_combout\ : std_logic;
-SIGNAL \inst6|mem~3732_combout\ : std_logic;
 SIGNAL \inst6|mem~148_q\ : std_logic;
 SIGNAL \inst6|mem~276_q\ : std_logic;
 SIGNAL \inst6|mem~20_q\ : std_logic;
@@ -4273,7 +4254,6 @@ SIGNAL \inst6|mem~2854_combout\ : std_logic;
 SIGNAL \inst6|mem~2855_combout\ : std_logic;
 SIGNAL \inst6|mem~372_q\ : std_logic;
 SIGNAL \inst6|mem~244_q\ : std_logic;
-SIGNAL \inst6|mem~3733_combout\ : std_logic;
 SIGNAL \inst6|mem~116_q\ : std_logic;
 SIGNAL \inst6|mem~2856_combout\ : std_logic;
 SIGNAL \inst6|mem~500_q\ : std_logic;
@@ -4288,6 +4268,7 @@ SIGNAL \inst6|mem~492_q\ : std_logic;
 SIGNAL \inst6|mem~2861_combout\ : std_logic;
 SIGNAL \inst6|mem~332_q\ : std_logic;
 SIGNAL \inst6|mem~204_q\ : std_logic;
+SIGNAL \inst6|mem~3723_combout\ : std_logic;
 SIGNAL \inst6|mem~76_q\ : std_logic;
 SIGNAL \inst6|mem~2862_combout\ : std_logic;
 SIGNAL \inst6|mem~460_q\ : std_logic;
@@ -4675,17 +4656,17 @@ SIGNAL \inst14|inst13|UPA\ : std_logic_vector(9 DOWNTO 0);
 SIGNAL \inst|valor_interno\ : std_logic_vector(15 DOWNTO 0);
 SIGNAL \inst1|R\ : std_logic_vector(7 DOWNTO 0);
 SIGNAL \inst1|S\ : std_logic_vector(7 DOWNTO 0);
-SIGNAL \inst14|inst13|ALT_INV_nAS~q\ : std_logic;
-SIGNAL \inst14|inst13|ALT_INV_EA\ : std_logic_vector(0 DOWNTO 0);
-SIGNAL \inst14|inst13|ALT_INV_EB\ : std_logic_vector(0 DOWNTO 0);
-SIGNAL \inst14|inst13|ALT_INV_CN~q\ : std_logic;
+SIGNAL \inst1|ALT_INV_Mux0~0_combout\ : std_logic;
 SIGNAL \inst14|inst13|ALT_INV_CC~q\ : std_logic;
 SIGNAL \inst14|inst13|ALT_INV_CZ~q\ : std_logic;
 SIGNAL \inst14|inst13|ALT_INV_CV~q\ : std_logic;
 SIGNAL \inst14|inst13|ALT_INV_CH~q\ : std_logic;
 SIGNAL \inst14|inst13|ALT_INV_nCRI~q\ : std_logic;
 SIGNAL \inst14|inst13|ALT_INV_nDUPA~q\ : std_logic;
-SIGNAL \inst1|ALT_INV_Mux0~0_combout\ : std_logic;
+SIGNAL \inst14|inst13|ALT_INV_EA\ : std_logic_vector(0 DOWNTO 0);
+SIGNAL \inst14|inst13|ALT_INV_EB\ : std_logic_vector(0 DOWNTO 0);
+SIGNAL \inst14|inst13|ALT_INV_CN~q\ : std_logic;
+SIGNAL \inst14|inst13|ALT_INV_nAS~q\ : std_logic;
 SIGNAL \ALT_INV_CLK~input_o\ : std_logic;
 SIGNAL \inst14|inst13|ALT_INV_nCBD~q\ : std_logic;
 
@@ -4710,17 +4691,17 @@ X_D <= ww_X_D;
 ww_devoe <= devoe;
 ww_devclrn <= devclrn;
 ww_devpor <= devpor;
-\inst14|inst13|ALT_INV_nAS~q\ <= NOT \inst14|inst13|nAS~q\;
-\inst14|inst13|ALT_INV_EA\(0) <= NOT \inst14|inst13|EA\(0);
-\inst14|inst13|ALT_INV_EB\(0) <= NOT \inst14|inst13|EB\(0);
-\inst14|inst13|ALT_INV_CN~q\ <= NOT \inst14|inst13|CN~q\;
+\inst1|ALT_INV_Mux0~0_combout\ <= NOT \inst1|Mux0~0_combout\;
 \inst14|inst13|ALT_INV_CC~q\ <= NOT \inst14|inst13|CC~q\;
 \inst14|inst13|ALT_INV_CZ~q\ <= NOT \inst14|inst13|CZ~q\;
 \inst14|inst13|ALT_INV_CV~q\ <= NOT \inst14|inst13|CV~q\;
 \inst14|inst13|ALT_INV_CH~q\ <= NOT \inst14|inst13|CH~q\;
 \inst14|inst13|ALT_INV_nCRI~q\ <= NOT \inst14|inst13|nCRI~q\;
 \inst14|inst13|ALT_INV_nDUPA~q\ <= NOT \inst14|inst13|nDUPA~q\;
-\inst1|ALT_INV_Mux0~0_combout\ <= NOT \inst1|Mux0~0_combout\;
+\inst14|inst13|ALT_INV_EA\(0) <= NOT \inst14|inst13|EA\(0);
+\inst14|inst13|ALT_INV_EB\(0) <= NOT \inst14|inst13|EB\(0);
+\inst14|inst13|ALT_INV_CN~q\ <= NOT \inst14|inst13|CN~q\;
+\inst14|inst13|ALT_INV_nAS~q\ <= NOT \inst14|inst13|nAS~q\;
 \ALT_INV_CLK~input_o\ <= NOT \CLK~input_o\;
 \inst14|inst13|ALT_INV_nCBD~q\ <= NOT \inst14|inst13|nCBD~q\;
 
@@ -11947,6 +11928,19 @@ PORT MAP (
 	devpor => ww_devpor,
 	q => \inst6|mem~167_q\);
 
+\inst6|mem~3716\ : fiftyfivenm_lcell_comb
+-- Equation(s):
+-- \inst6|mem~3716_combout\ = !\BusAlta|PortR[6]~12_combout\
+
+-- pragma translate_off
+GENERIC MAP (
+	lut_mask => "0101010101010101",
+	sum_lutc_input => "datac")
+-- pragma translate_on
+PORT MAP (
+	dataa => \BusAlta|PortR[6]~12_combout\,
+	combout => \inst6|mem~3716_combout\);
+
 \inst6|mem~3618\ : fiftyfivenm_lcell_comb
 -- Equation(s):
 -- \inst6|mem~3618_combout\ = (\inst14|inst13|nAS~q\ & (\inst14|inst13|nRW~q\ & (\inst6|mem~3474_combout\ & \inst6|mem~3611_combout\)))
@@ -11971,7 +11965,7 @@ GENERIC MAP (
 -- pragma translate_on
 PORT MAP (
 	clk => \ALT_INV_CLK~input_o\,
-	d => \BusAlta|PortR[6]~12_combout\,
+	d => \inst6|mem~3716_combout\,
 	ena => \inst6|mem~3618_combout\,
 	devclrn => ww_devclrn,
 	devpor => ww_devpor,
@@ -11979,11 +11973,11 @@ PORT MAP (
 
 \inst6|mem~2259\ : fiftyfivenm_lcell_comb
 -- Equation(s):
--- \inst6|mem~2259_combout\ = (\inst|valor_interno\(5) & (((\inst|valor_interno\(4))))) # (!\inst|valor_interno\(5) & ((\inst|valor_interno\(4) & (\inst6|mem~167_q\)) # (!\inst|valor_interno\(4) & ((\inst6|mem~39_q\)))))
+-- \inst6|mem~2259_combout\ = (\inst|valor_interno\(5) & (((\inst|valor_interno\(4))))) # (!\inst|valor_interno\(5) & ((\inst|valor_interno\(4) & (\inst6|mem~167_q\)) # (!\inst|valor_interno\(4) & ((!\inst6|mem~39_q\)))))
 
 -- pragma translate_off
 GENERIC MAP (
-	lut_mask => "1110010111100000",
+	lut_mask => "1110000011100101",
 	sum_lutc_input => "datac")
 -- pragma translate_on
 PORT MAP (
@@ -14315,6 +14309,19 @@ PORT MAP (
 	devpor => ww_devpor,
 	q => \inst6|mem~575_q\);
 
+\inst6|mem~3717\ : fiftyfivenm_lcell_comb
+-- Equation(s):
+-- \inst6|mem~3717_combout\ = !\BusAlta|PortR[6]~12_combout\
+
+-- pragma translate_off
+GENERIC MAP (
+	lut_mask => "0101010101010101",
+	sum_lutc_input => "datac")
+-- pragma translate_on
+PORT MAP (
+	dataa => \BusAlta|PortR[6]~12_combout\,
+	combout => \inst6|mem~3717_combout\);
+
 \inst6|mem~3612\ : fiftyfivenm_lcell_comb
 -- Equation(s):
 -- \inst6|mem~3612_combout\ = (\inst14|inst13|nAS~q\ & (\inst14|inst13|nRW~q\ & (\inst6|mem~3451_combout\ & \inst6|mem~3611_combout\)))
@@ -14339,7 +14346,7 @@ GENERIC MAP (
 -- pragma translate_on
 PORT MAP (
 	clk => \ALT_INV_CLK~input_o\,
-	d => \BusAlta|PortR[6]~12_combout\,
+	d => \inst6|mem~3717_combout\,
 	ena => \inst6|mem~3612_combout\,
 	devclrn => ww_devclrn,
 	devpor => ww_devpor,
@@ -14347,11 +14354,11 @@ PORT MAP (
 
 \inst6|mem~2297\ : fiftyfivenm_lcell_comb
 -- Equation(s):
--- \inst6|mem~2297_combout\ = (\inst|valor_interno\(7) & (((\inst|valor_interno\(6))))) # (!\inst|valor_interno\(7) & ((\inst|valor_interno\(6) & (\inst6|mem~575_q\)) # (!\inst|valor_interno\(6) & ((\inst6|mem~63_q\)))))
+-- \inst6|mem~2297_combout\ = (\inst|valor_interno\(7) & (((\inst|valor_interno\(6))))) # (!\inst|valor_interno\(7) & ((\inst|valor_interno\(6) & (\inst6|mem~575_q\)) # (!\inst|valor_interno\(6) & ((!\inst6|mem~63_q\)))))
 
 -- pragma translate_off
 GENERIC MAP (
-	lut_mask => "1110010111100000",
+	lut_mask => "1110000011100101",
 	sum_lutc_input => "datac")
 -- pragma translate_on
 PORT MAP (
@@ -15947,6 +15954,19 @@ PORT MAP (
 	devpor => ww_devpor,
 	q => \inst6|mem~1079_q\);
 
+\inst6|mem~3718\ : fiftyfivenm_lcell_comb
+-- Equation(s):
+-- \inst6|mem~3718_combout\ = !\BusAlta|PortR[6]~12_combout\
+
+-- pragma translate_off
+GENERIC MAP (
+	lut_mask => "0101010101010101",
+	sum_lutc_input => "datac")
+-- pragma translate_on
+PORT MAP (
+	dataa => \BusAlta|PortR[6]~12_combout\,
+	combout => \inst6|mem~3718_combout\);
+
 \inst6|mem~3623\ : fiftyfivenm_lcell_comb
 -- Equation(s):
 -- \inst6|mem~3623_combout\ = (\inst14|inst13|nAS~q\ & (\inst14|inst13|nRW~q\ & (\inst6|mem~3453_combout\ & \inst6|mem~3611_combout\)))
@@ -15971,7 +15991,7 @@ GENERIC MAP (
 -- pragma translate_on
 PORT MAP (
 	clk => \ALT_INV_CLK~input_o\,
-	d => \BusAlta|PortR[6]~12_combout\,
+	d => \inst6|mem~3718_combout\,
 	ena => \inst6|mem~3623_combout\,
 	devclrn => ww_devclrn,
 	devpor => ww_devpor,
@@ -15979,11 +15999,11 @@ PORT MAP (
 
 \inst6|mem~2323\ : fiftyfivenm_lcell_comb
 -- Equation(s):
--- \inst6|mem~2323_combout\ = (\inst|valor_interno\(6) & (((\inst|valor_interno\(7))))) # (!\inst|valor_interno\(6) & ((\inst|valor_interno\(7) & (\inst6|mem~1079_q\)) # (!\inst|valor_interno\(7) & ((\inst6|mem~55_q\)))))
+-- \inst6|mem~2323_combout\ = (\inst|valor_interno\(6) & (((\inst|valor_interno\(7))))) # (!\inst|valor_interno\(6) & ((\inst|valor_interno\(7) & (\inst6|mem~1079_q\)) # (!\inst|valor_interno\(7) & ((!\inst6|mem~55_q\)))))
 
 -- pragma translate_off
 GENERIC MAP (
-	lut_mask => "1110010111100000",
+	lut_mask => "1110000011100101",
 	sum_lutc_input => "datac")
 -- pragma translate_on
 PORT MAP (
@@ -19947,19 +19967,6 @@ PORT MAP (
 	devpor => ww_devpor,
 	q => \inst6|mem~79_q\);
 
-\inst6|mem~3717\ : fiftyfivenm_lcell_comb
--- Equation(s):
--- \inst6|mem~3717_combout\ = !\BusAlta|PortR[6]~12_combout\
-
--- pragma translate_off
-GENERIC MAP (
-	lut_mask => "0101010101010101",
-	sum_lutc_input => "datac")
--- pragma translate_on
-PORT MAP (
-	dataa => \BusAlta|PortR[6]~12_combout\,
-	combout => \inst6|mem~3717_combout\);
-
 \inst6|mem~3626\ : fiftyfivenm_lcell_comb
 -- Equation(s):
 -- \inst6|mem~3626_combout\ = (\inst14|inst13|nAS~q\ & (\inst14|inst13|nRW~q\ & (\inst6|mem~3484_combout\ & \inst6|mem~3611_combout\)))
@@ -19984,7 +19991,7 @@ GENERIC MAP (
 -- pragma translate_on
 PORT MAP (
 	clk => \ALT_INV_CLK~input_o\,
-	d => \inst6|mem~3717_combout\,
+	d => \BusAlta|PortR[6]~12_combout\,
 	ena => \inst6|mem~3626_combout\,
 	devclrn => ww_devclrn,
 	devpor => ww_devpor,
@@ -19992,11 +19999,11 @@ PORT MAP (
 
 \inst6|mem~2386\ : fiftyfivenm_lcell_comb
 -- Equation(s):
--- \inst6|mem~2386_combout\ = (\inst|valor_interno\(3) & (((\inst|valor_interno\(2))))) # (!\inst|valor_interno\(3) & ((\inst|valor_interno\(2) & (\inst6|mem~79_q\)) # (!\inst|valor_interno\(2) & ((!\inst6|mem~47_q\)))))
+-- \inst6|mem~2386_combout\ = (\inst|valor_interno\(3) & (((\inst|valor_interno\(2))))) # (!\inst|valor_interno\(3) & ((\inst|valor_interno\(2) & (\inst6|mem~79_q\)) # (!\inst|valor_interno\(2) & ((\inst6|mem~47_q\)))))
 
 -- pragma translate_off
 GENERIC MAP (
-	lut_mask => "1110000011100101",
+	lut_mask => "1110010111100000",
 	sum_lutc_input => "datac")
 -- pragma translate_on
 PORT MAP (
@@ -23742,19 +23749,6 @@ PORT MAP (
 	datad => \inst6|mem~590_q\,
 	combout => \inst6|mem~2470_combout\);
 
-\inst6|mem~3718\ : fiftyfivenm_lcell_comb
--- Equation(s):
--- \inst6|mem~3718_combout\ = !\BusAlta|PortR[5]~14_combout\
-
--- pragma translate_off
-GENERIC MAP (
-	lut_mask => "0101010101010101",
-	sum_lutc_input => "datac")
--- pragma translate_on
-PORT MAP (
-	dataa => \BusAlta|PortR[5]~14_combout\,
-	combout => \inst6|mem~3718_combout\);
-
 \inst6|mem~70\ : dffeas
 -- pragma translate_off
 GENERIC MAP (
@@ -23763,7 +23757,7 @@ GENERIC MAP (
 -- pragma translate_on
 PORT MAP (
 	clk => \ALT_INV_CLK~input_o\,
-	d => \inst6|mem~3718_combout\,
+	d => \BusAlta|PortR[5]~14_combout\,
 	ena => \inst6|mem~3617_combout\,
 	devclrn => ww_devclrn,
 	devpor => ww_devpor,
@@ -23783,6 +23777,19 @@ PORT MAP (
 	devpor => ww_devpor,
 	q => \inst6|mem~62_q\);
 
+\inst6|mem~3719\ : fiftyfivenm_lcell_comb
+-- Equation(s):
+-- \inst6|mem~3719_combout\ = !\BusAlta|PortR[5]~14_combout\
+
+-- pragma translate_off
+GENERIC MAP (
+	lut_mask => "0101010101010101",
+	sum_lutc_input => "datac")
+-- pragma translate_on
+PORT MAP (
+	dataa => \BusAlta|PortR[5]~14_combout\,
+	combout => \inst6|mem~3719_combout\);
+
 \inst6|mem~54\ : dffeas
 -- pragma translate_off
 GENERIC MAP (
@@ -23791,7 +23798,7 @@ GENERIC MAP (
 -- pragma translate_on
 PORT MAP (
 	clk => \ALT_INV_CLK~input_o\,
-	d => \BusAlta|PortR[5]~14_combout\,
+	d => \inst6|mem~3719_combout\,
 	ena => \inst6|mem~3623_combout\,
 	devclrn => ww_devclrn,
 	devpor => ww_devpor,
@@ -23799,11 +23806,11 @@ PORT MAP (
 
 \inst6|mem~2471\ : fiftyfivenm_lcell_comb
 -- Equation(s):
--- \inst6|mem~2471_combout\ = (\inst|valor_interno\(1) & (((\inst|valor_interno\(0))))) # (!\inst|valor_interno\(1) & ((\inst|valor_interno\(0) & (\inst6|mem~62_q\)) # (!\inst|valor_interno\(0) & ((\inst6|mem~54_q\)))))
+-- \inst6|mem~2471_combout\ = (\inst|valor_interno\(1) & (((\inst|valor_interno\(0))))) # (!\inst|valor_interno\(1) & ((\inst|valor_interno\(0) & (\inst6|mem~62_q\)) # (!\inst|valor_interno\(0) & ((!\inst6|mem~54_q\)))))
 
 -- pragma translate_off
 GENERIC MAP (
-	lut_mask => "1110010111100000",
+	lut_mask => "1110000011100101",
 	sum_lutc_input => "datac")
 -- pragma translate_on
 PORT MAP (
@@ -23829,11 +23836,11 @@ PORT MAP (
 
 \inst6|mem~2472\ : fiftyfivenm_lcell_comb
 -- Equation(s):
--- \inst6|mem~2472_combout\ = (\inst|valor_interno\(1) & ((\inst6|mem~2471_combout\ & ((\inst6|mem~78_q\))) # (!\inst6|mem~2471_combout\ & (!\inst6|mem~70_q\)))) # (!\inst|valor_interno\(1) & (((\inst6|mem~2471_combout\))))
+-- \inst6|mem~2472_combout\ = (\inst|valor_interno\(1) & ((\inst6|mem~2471_combout\ & ((\inst6|mem~78_q\))) # (!\inst6|mem~2471_combout\ & (\inst6|mem~70_q\)))) # (!\inst|valor_interno\(1) & (((\inst6|mem~2471_combout\))))
 
 -- pragma translate_off
 GENERIC MAP (
-	lut_mask => "1111010000110100",
+	lut_mask => "1111100000111000",
 	sum_lutc_input => "datac")
 -- pragma translate_on
 PORT MAP (
@@ -25351,19 +25358,6 @@ PORT MAP (
 	devpor => ww_devpor,
 	q => \inst6|mem~30_q\);
 
-\inst6|mem~3719\ : fiftyfivenm_lcell_comb
--- Equation(s):
--- \inst6|mem~3719_combout\ = !\BusAlta|PortR[5]~14_combout\
-
--- pragma translate_off
-GENERIC MAP (
-	lut_mask => "0101010101010101",
-	sum_lutc_input => "datac")
--- pragma translate_on
-PORT MAP (
-	dataa => \BusAlta|PortR[5]~14_combout\,
-	combout => \inst6|mem~3719_combout\);
-
 \inst6|mem~22\ : dffeas
 -- pragma translate_off
 GENERIC MAP (
@@ -25372,7 +25366,7 @@ GENERIC MAP (
 -- pragma translate_on
 PORT MAP (
 	clk => \ALT_INV_CLK~input_o\,
-	d => \inst6|mem~3719_combout\,
+	d => \BusAlta|PortR[5]~14_combout\,
 	ena => \inst6|mem~3621_combout\,
 	devclrn => ww_devclrn,
 	devpor => ww_devpor,
@@ -25380,11 +25374,11 @@ PORT MAP (
 
 \inst6|mem~2513\ : fiftyfivenm_lcell_comb
 -- Equation(s):
--- \inst6|mem~2513_combout\ = (\inst|valor_interno\(1) & (((\inst|valor_interno\(0))))) # (!\inst|valor_interno\(1) & ((\inst|valor_interno\(0) & (\inst6|mem~30_q\)) # (!\inst|valor_interno\(0) & ((!\inst6|mem~22_q\)))))
+-- \inst6|mem~2513_combout\ = (\inst|valor_interno\(1) & (((\inst|valor_interno\(0))))) # (!\inst|valor_interno\(1) & ((\inst|valor_interno\(0) & (\inst6|mem~30_q\)) # (!\inst|valor_interno\(0) & ((\inst6|mem~22_q\)))))
 
 -- pragma translate_off
 GENERIC MAP (
-	lut_mask => "1110000011100101",
+	lut_mask => "1110010111100000",
 	sum_lutc_input => "datac")
 -- pragma translate_on
 PORT MAP (
@@ -25394,19 +25388,6 @@ PORT MAP (
 	datad => \inst6|mem~22_q\,
 	combout => \inst6|mem~2513_combout\);
 
-\inst6|mem~3720\ : fiftyfivenm_lcell_comb
--- Equation(s):
--- \inst6|mem~3720_combout\ = !\BusAlta|PortR[5]~14_combout\
-
--- pragma translate_off
-GENERIC MAP (
-	lut_mask => "0101010101010101",
-	sum_lutc_input => "datac")
--- pragma translate_on
-PORT MAP (
-	dataa => \BusAlta|PortR[5]~14_combout\,
-	combout => \inst6|mem~3720_combout\);
-
 \inst6|mem~46\ : dffeas
 -- pragma translate_off
 GENERIC MAP (
@@ -25415,7 +25396,7 @@ GENERIC MAP (
 -- pragma translate_on
 PORT MAP (
 	clk => \ALT_INV_CLK~input_o\,
-	d => \inst6|mem~3720_combout\,
+	d => \BusAlta|PortR[5]~14_combout\,
 	ena => \inst6|mem~3626_combout\,
 	devclrn => ww_devclrn,
 	devpor => ww_devpor,
@@ -25423,11 +25404,11 @@ PORT MAP (
 
 \inst6|mem~2514\ : fiftyfivenm_lcell_comb
 -- Equation(s):
--- \inst6|mem~2514_combout\ = (\inst|valor_interno\(1) & ((\inst6|mem~2513_combout\ & ((!\inst6|mem~46_q\))) # (!\inst6|mem~2513_combout\ & (\inst6|mem~38_q\)))) # (!\inst|valor_interno\(1) & (((\inst6|mem~2513_combout\))))
+-- \inst6|mem~2514_combout\ = (\inst|valor_interno\(1) & ((\inst6|mem~2513_combout\ & ((\inst6|mem~46_q\))) # (!\inst6|mem~2513_combout\ & (\inst6|mem~38_q\)))) # (!\inst|valor_interno\(1) & (((\inst6|mem~2513_combout\))))
 
 -- pragma translate_off
 GENERIC MAP (
-	lut_mask => "0011100011111000",
+	lut_mask => "1111100000111000",
 	sum_lutc_input => "datac")
 -- pragma translate_on
 PORT MAP (
@@ -31738,19 +31719,6 @@ PORT MAP (
 	devpor => ww_devpor,
 	q => \inst6|mem~101_q\);
 
-\inst6|mem~3721\ : fiftyfivenm_lcell_comb
--- Equation(s):
--- \inst6|mem~3721_combout\ = !\BusAlta|PortR[4]~16_combout\
-
--- pragma translate_off
-GENERIC MAP (
-	lut_mask => "0101010101010101",
-	sum_lutc_input => "datac")
--- pragma translate_on
-PORT MAP (
-	dataa => \BusAlta|PortR[4]~16_combout\,
-	combout => \inst6|mem~3721_combout\);
-
 \inst6|mem~37\ : dffeas
 -- pragma translate_off
 GENERIC MAP (
@@ -31759,7 +31727,7 @@ GENERIC MAP (
 -- pragma translate_on
 PORT MAP (
 	clk => \ALT_INV_CLK~input_o\,
-	d => \inst6|mem~3721_combout\,
+	d => \BusAlta|PortR[4]~16_combout\,
 	ena => \inst6|mem~3618_combout\,
 	devclrn => ww_devclrn,
 	devpor => ww_devpor,
@@ -31767,11 +31735,11 @@ PORT MAP (
 
 \inst6|mem~2679\ : fiftyfivenm_lcell_comb
 -- Equation(s):
--- \inst6|mem~2679_combout\ = (\inst|valor_interno\(2) & (((\inst|valor_interno\(3))))) # (!\inst|valor_interno\(2) & ((\inst|valor_interno\(3) & (\inst6|mem~101_q\)) # (!\inst|valor_interno\(3) & ((!\inst6|mem~37_q\)))))
+-- \inst6|mem~2679_combout\ = (\inst|valor_interno\(2) & (((\inst|valor_interno\(3))))) # (!\inst|valor_interno\(2) & ((\inst|valor_interno\(3) & (\inst6|mem~101_q\)) # (!\inst|valor_interno\(3) & ((\inst6|mem~37_q\)))))
 
 -- pragma translate_off
 GENERIC MAP (
-	lut_mask => "1110000011100101",
+	lut_mask => "1110010111100000",
 	sum_lutc_input => "datac")
 -- pragma translate_on
 PORT MAP (
@@ -31811,19 +31779,6 @@ PORT MAP (
 	datad => \inst6|mem~133_q\,
 	combout => \inst6|mem~2680_combout\);
 
-\inst6|mem~3722\ : fiftyfivenm_lcell_comb
--- Equation(s):
--- \inst6|mem~3722_combout\ = !\BusAlta|PortR[4]~16_combout\
-
--- pragma translate_off
-GENERIC MAP (
-	lut_mask => "0101010101010101",
-	sum_lutc_input => "datac")
--- pragma translate_on
-PORT MAP (
-	dataa => \BusAlta|PortR[4]~16_combout\,
-	combout => \inst6|mem~3722_combout\);
-
 \inst6|mem~93\ : dffeas
 -- pragma translate_off
 GENERIC MAP (
@@ -31832,24 +31787,11 @@ GENERIC MAP (
 -- pragma translate_on
 PORT MAP (
 	clk => \ALT_INV_CLK~input_o\,
-	d => \inst6|mem~3722_combout\,
+	d => \BusAlta|PortR[4]~16_combout\,
 	ena => \inst6|mem~3613_combout\,
 	devclrn => ww_devclrn,
 	devpor => ww_devpor,
 	q => \inst6|mem~93_q\);
-
-\inst6|mem~3723\ : fiftyfivenm_lcell_comb
--- Equation(s):
--- \inst6|mem~3723_combout\ = !\BusAlta|PortR[4]~16_combout\
-
--- pragma translate_off
-GENERIC MAP (
-	lut_mask => "0101010101010101",
-	sum_lutc_input => "datac")
--- pragma translate_on
-PORT MAP (
-	dataa => \BusAlta|PortR[4]~16_combout\,
-	combout => \inst6|mem~3723_combout\);
 
 \inst6|mem~61\ : dffeas
 -- pragma translate_off
@@ -31859,7 +31801,7 @@ GENERIC MAP (
 -- pragma translate_on
 PORT MAP (
 	clk => \ALT_INV_CLK~input_o\,
-	d => \inst6|mem~3723_combout\,
+	d => \BusAlta|PortR[4]~16_combout\,
 	ena => \inst6|mem~3612_combout\,
 	devclrn => ww_devclrn,
 	devpor => ww_devpor,
@@ -31881,11 +31823,11 @@ PORT MAP (
 
 \inst6|mem~2681\ : fiftyfivenm_lcell_comb
 -- Equation(s):
--- \inst6|mem~2681_combout\ = (\inst|valor_interno\(3) & (((\inst|valor_interno\(2))))) # (!\inst|valor_interno\(3) & ((\inst|valor_interno\(2) & (!\inst6|mem~61_q\)) # (!\inst|valor_interno\(2) & ((\inst6|mem~29_q\)))))
+-- \inst6|mem~2681_combout\ = (\inst|valor_interno\(3) & (((\inst|valor_interno\(2))))) # (!\inst|valor_interno\(3) & ((\inst|valor_interno\(2) & (\inst6|mem~61_q\)) # (!\inst|valor_interno\(2) & ((\inst6|mem~29_q\)))))
 
 -- pragma translate_off
 GENERIC MAP (
-	lut_mask => "1011010110110000",
+	lut_mask => "1110010111100000",
 	sum_lutc_input => "datac")
 -- pragma translate_on
 PORT MAP (
@@ -31911,11 +31853,11 @@ PORT MAP (
 
 \inst6|mem~2682\ : fiftyfivenm_lcell_comb
 -- Equation(s):
--- \inst6|mem~2682_combout\ = (\inst|valor_interno\(3) & ((\inst6|mem~2681_combout\ & ((\inst6|mem~125_q\))) # (!\inst6|mem~2681_combout\ & (!\inst6|mem~93_q\)))) # (!\inst|valor_interno\(3) & (((\inst6|mem~2681_combout\))))
+-- \inst6|mem~2682_combout\ = (\inst|valor_interno\(3) & ((\inst6|mem~2681_combout\ & ((\inst6|mem~125_q\))) # (!\inst6|mem~2681_combout\ & (\inst6|mem~93_q\)))) # (!\inst|valor_interno\(3) & (((\inst6|mem~2681_combout\))))
 
 -- pragma translate_off
 GENERIC MAP (
-	lut_mask => "1111010000110100",
+	lut_mask => "1111100000111000",
 	sum_lutc_input => "datac")
 -- pragma translate_on
 PORT MAP (
@@ -31925,9 +31867,9 @@ PORT MAP (
 	datad => \inst6|mem~125_q\,
 	combout => \inst6|mem~2682_combout\);
 
-\inst6|mem~3724\ : fiftyfivenm_lcell_comb
+\inst6|mem~3720\ : fiftyfivenm_lcell_comb
 -- Equation(s):
--- \inst6|mem~3724_combout\ = !\BusAlta|PortR[4]~16_combout\
+-- \inst6|mem~3720_combout\ = !\BusAlta|PortR[4]~16_combout\
 
 -- pragma translate_off
 GENERIC MAP (
@@ -31936,7 +31878,7 @@ GENERIC MAP (
 -- pragma translate_on
 PORT MAP (
 	dataa => \BusAlta|PortR[4]~16_combout\,
-	combout => \inst6|mem~3724_combout\);
+	combout => \inst6|mem~3720_combout\);
 
 \inst6|mem~53\ : dffeas
 -- pragma translate_off
@@ -31946,24 +31888,11 @@ GENERIC MAP (
 -- pragma translate_on
 PORT MAP (
 	clk => \ALT_INV_CLK~input_o\,
-	d => \inst6|mem~3724_combout\,
+	d => \inst6|mem~3720_combout\,
 	ena => \inst6|mem~3623_combout\,
 	devclrn => ww_devclrn,
 	devpor => ww_devpor,
 	q => \inst6|mem~53_q\);
-
-\inst6|mem~3725\ : fiftyfivenm_lcell_comb
--- Equation(s):
--- \inst6|mem~3725_combout\ = !\BusAlta|PortR[4]~16_combout\
-
--- pragma translate_off
-GENERIC MAP (
-	lut_mask => "0101010101010101",
-	sum_lutc_input => "datac")
--- pragma translate_on
-PORT MAP (
-	dataa => \BusAlta|PortR[4]~16_combout\,
-	combout => \inst6|mem~3725_combout\);
 
 \inst6|mem~85\ : dffeas
 -- pragma translate_off
@@ -31973,24 +31902,11 @@ GENERIC MAP (
 -- pragma translate_on
 PORT MAP (
 	clk => \ALT_INV_CLK~input_o\,
-	d => \inst6|mem~3725_combout\,
+	d => \BusAlta|PortR[4]~16_combout\,
 	ena => \inst6|mem~3620_combout\,
 	devclrn => ww_devclrn,
 	devpor => ww_devpor,
 	q => \inst6|mem~85_q\);
-
-\inst6|mem~3726\ : fiftyfivenm_lcell_comb
--- Equation(s):
--- \inst6|mem~3726_combout\ = !\BusAlta|PortR[4]~16_combout\
-
--- pragma translate_off
-GENERIC MAP (
-	lut_mask => "0101010101010101",
-	sum_lutc_input => "datac")
--- pragma translate_on
-PORT MAP (
-	dataa => \BusAlta|PortR[4]~16_combout\,
-	combout => \inst6|mem~3726_combout\);
 
 \inst6|mem~21\ : dffeas
 -- pragma translate_off
@@ -32000,7 +31916,7 @@ GENERIC MAP (
 -- pragma translate_on
 PORT MAP (
 	clk => \ALT_INV_CLK~input_o\,
-	d => \inst6|mem~3726_combout\,
+	d => \BusAlta|PortR[4]~16_combout\,
 	ena => \inst6|mem~3621_combout\,
 	devclrn => ww_devclrn,
 	devpor => ww_devpor,
@@ -32008,11 +31924,11 @@ PORT MAP (
 
 \inst6|mem~2683\ : fiftyfivenm_lcell_comb
 -- Equation(s):
--- \inst6|mem~2683_combout\ = (\inst|valor_interno\(2) & (((\inst|valor_interno\(3))))) # (!\inst|valor_interno\(2) & ((\inst|valor_interno\(3) & (!\inst6|mem~85_q\)) # (!\inst|valor_interno\(3) & ((!\inst6|mem~21_q\)))))
+-- \inst6|mem~2683_combout\ = (\inst|valor_interno\(2) & (((\inst|valor_interno\(3))))) # (!\inst|valor_interno\(2) & ((\inst|valor_interno\(3) & (\inst6|mem~85_q\)) # (!\inst|valor_interno\(3) & ((\inst6|mem~21_q\)))))
 
 -- pragma translate_off
 GENERIC MAP (
-	lut_mask => "1011000010110101",
+	lut_mask => "1110010111100000",
 	sum_lutc_input => "datac")
 -- pragma translate_on
 PORT MAP (
@@ -32082,9 +31998,9 @@ PORT MAP (
 	devpor => ww_devpor,
 	q => \inst6|mem~109_q\);
 
-\inst6|mem~3727\ : fiftyfivenm_lcell_comb
+\inst6|mem~3721\ : fiftyfivenm_lcell_comb
 -- Equation(s):
--- \inst6|mem~3727_combout\ = !\BusAlta|PortR[4]~16_combout\
+-- \inst6|mem~3721_combout\ = !\BusAlta|PortR[4]~16_combout\
 
 -- pragma translate_off
 GENERIC MAP (
@@ -32093,7 +32009,7 @@ GENERIC MAP (
 -- pragma translate_on
 PORT MAP (
 	dataa => \BusAlta|PortR[4]~16_combout\,
-	combout => \inst6|mem~3727_combout\);
+	combout => \inst6|mem~3721_combout\);
 
 \inst6|mem~77\ : dffeas
 -- pragma translate_off
@@ -32103,24 +32019,11 @@ GENERIC MAP (
 -- pragma translate_on
 PORT MAP (
 	clk => \ALT_INV_CLK~input_o\,
-	d => \inst6|mem~3727_combout\,
+	d => \inst6|mem~3721_combout\,
 	ena => \inst6|mem~3624_combout\,
 	devclrn => ww_devclrn,
 	devpor => ww_devpor,
 	q => \inst6|mem~77_q\);
-
-\inst6|mem~3728\ : fiftyfivenm_lcell_comb
--- Equation(s):
--- \inst6|mem~3728_combout\ = !\BusAlta|PortR[4]~16_combout\
-
--- pragma translate_off
-GENERIC MAP (
-	lut_mask => "0101010101010101",
-	sum_lutc_input => "datac")
--- pragma translate_on
-PORT MAP (
-	dataa => \BusAlta|PortR[4]~16_combout\,
-	combout => \inst6|mem~3728_combout\);
 
 \inst6|mem~45\ : dffeas
 -- pragma translate_off
@@ -32130,7 +32033,7 @@ GENERIC MAP (
 -- pragma translate_on
 PORT MAP (
 	clk => \ALT_INV_CLK~input_o\,
-	d => \inst6|mem~3728_combout\,
+	d => \BusAlta|PortR[4]~16_combout\,
 	ena => \inst6|mem~3626_combout\,
 	devclrn => ww_devclrn,
 	devpor => ww_devpor,
@@ -32138,11 +32041,11 @@ PORT MAP (
 
 \inst6|mem~2686\ : fiftyfivenm_lcell_comb
 -- Equation(s):
--- \inst6|mem~2686_combout\ = (\inst|valor_interno\(3) & (((\inst|valor_interno\(2))))) # (!\inst|valor_interno\(3) & ((\inst|valor_interno\(2) & (!\inst6|mem~77_q\)) # (!\inst|valor_interno\(2) & ((!\inst6|mem~45_q\)))))
+-- \inst6|mem~2686_combout\ = (\inst|valor_interno\(3) & (((\inst|valor_interno\(2))))) # (!\inst|valor_interno\(3) & ((\inst|valor_interno\(2) & (!\inst6|mem~77_q\)) # (!\inst|valor_interno\(2) & ((\inst6|mem~45_q\)))))
 
 -- pragma translate_off
 GENERIC MAP (
-	lut_mask => "1011000010110101",
+	lut_mask => "1011010110110000",
 	sum_lutc_input => "datac")
 -- pragma translate_on
 PORT MAP (
@@ -38401,6 +38304,19 @@ PORT MAP (
 	datad => \inst6|mem~2167_combout\,
 	combout => \inst6|mem~2168_combout\);
 
+\inst6|mem~3713\ : fiftyfivenm_lcell_comb
+-- Equation(s):
+-- \inst6|mem~3713_combout\ = !\BusAlta|PortR[7]~10_combout\
+
+-- pragma translate_off
+GENERIC MAP (
+	lut_mask => "0101010101010101",
+	sum_lutc_input => "datac")
+-- pragma translate_on
+PORT MAP (
+	dataa => \BusAlta|PortR[7]~10_combout\,
+	combout => \inst6|mem~3713_combout\);
+
 \inst6|mem~64\ : dffeas
 -- pragma translate_off
 GENERIC MAP (
@@ -38409,7 +38325,7 @@ GENERIC MAP (
 -- pragma translate_on
 PORT MAP (
 	clk => \ALT_INV_CLK~input_o\,
-	d => \BusAlta|PortR[7]~10_combout\,
+	d => \inst6|mem~3713_combout\,
 	ena => \inst6|mem~3612_combout\,
 	devclrn => ww_devclrn,
 	devpor => ww_devpor,
@@ -38459,19 +38375,6 @@ PORT MAP (
 	datad => \inst6|mem~32_q\,
 	combout => \inst6|mem~2169_combout\);
 
-\inst6|mem~3713\ : fiftyfivenm_lcell_comb
--- Equation(s):
--- \inst6|mem~3713_combout\ = !\BusAlta|PortR[7]~10_combout\
-
--- pragma translate_off
-GENERIC MAP (
-	lut_mask => "0101010101010101",
-	sum_lutc_input => "datac")
--- pragma translate_on
-PORT MAP (
-	dataa => \BusAlta|PortR[7]~10_combout\,
-	combout => \inst6|mem~3713_combout\);
-
 \inst6|mem~128\ : dffeas
 -- pragma translate_off
 GENERIC MAP (
@@ -38480,7 +38383,7 @@ GENERIC MAP (
 -- pragma translate_on
 PORT MAP (
 	clk => \ALT_INV_CLK~input_o\,
-	d => \inst6|mem~3713_combout\,
+	d => \BusAlta|PortR[7]~10_combout\,
 	ena => \inst6|mem~3615_combout\,
 	devclrn => ww_devclrn,
 	devpor => ww_devpor,
@@ -38488,11 +38391,11 @@ PORT MAP (
 
 \inst6|mem~2170\ : fiftyfivenm_lcell_comb
 -- Equation(s):
--- \inst6|mem~2170_combout\ = (\inst|valor_interno\(2) & ((\inst6|mem~2169_combout\ & ((!\inst6|mem~128_q\))) # (!\inst6|mem~2169_combout\ & (\inst6|mem~64_q\)))) # (!\inst|valor_interno\(2) & (((\inst6|mem~2169_combout\))))
+-- \inst6|mem~2170_combout\ = (\inst|valor_interno\(2) & ((\inst6|mem~2169_combout\ & ((\inst6|mem~128_q\))) # (!\inst6|mem~2169_combout\ & (!\inst6|mem~64_q\)))) # (!\inst|valor_interno\(2) & (((\inst6|mem~2169_combout\))))
 
 -- pragma translate_off
 GENERIC MAP (
-	lut_mask => "0011100011111000",
+	lut_mask => "1111010000110100",
 	sum_lutc_input => "datac")
 -- pragma translate_on
 PORT MAP (
@@ -38516,6 +38419,20 @@ PORT MAP (
 	devpor => ww_devpor,
 	q => \inst6|mem~104_q\);
 
+\inst6|mem~72\ : dffeas
+-- pragma translate_off
+GENERIC MAP (
+	is_wysiwyg => "true",
+	power_up => "low")
+-- pragma translate_on
+PORT MAP (
+	clk => \ALT_INV_CLK~input_o\,
+	d => \BusAlta|PortR[7]~10_combout\,
+	ena => \inst6|mem~3617_combout\,
+	devclrn => ww_devclrn,
+	devpor => ww_devpor,
+	q => \inst6|mem~72_q\);
+
 \inst6|mem~3714\ : fiftyfivenm_lcell_comb
 -- Equation(s):
 -- \inst6|mem~3714_combout\ = !\BusAlta|PortR[7]~10_combout\
@@ -38529,20 +38446,6 @@ PORT MAP (
 	dataa => \BusAlta|PortR[7]~10_combout\,
 	combout => \inst6|mem~3714_combout\);
 
-\inst6|mem~72\ : dffeas
--- pragma translate_off
-GENERIC MAP (
-	is_wysiwyg => "true",
-	power_up => "low")
--- pragma translate_on
-PORT MAP (
-	clk => \ALT_INV_CLK~input_o\,
-	d => \inst6|mem~3714_combout\,
-	ena => \inst6|mem~3617_combout\,
-	devclrn => ww_devclrn,
-	devpor => ww_devpor,
-	q => \inst6|mem~72_q\);
-
 \inst6|mem~40\ : dffeas
 -- pragma translate_off
 GENERIC MAP (
@@ -38551,7 +38454,7 @@ GENERIC MAP (
 -- pragma translate_on
 PORT MAP (
 	clk => \ALT_INV_CLK~input_o\,
-	d => \BusAlta|PortR[7]~10_combout\,
+	d => \inst6|mem~3714_combout\,
 	ena => \inst6|mem~3618_combout\,
 	devclrn => ww_devclrn,
 	devpor => ww_devpor,
@@ -38559,11 +38462,11 @@ PORT MAP (
 
 \inst6|mem~2171\ : fiftyfivenm_lcell_comb
 -- Equation(s):
--- \inst6|mem~2171_combout\ = (\inst|valor_interno\(3) & (((\inst|valor_interno\(2))))) # (!\inst|valor_interno\(3) & ((\inst|valor_interno\(2) & (!\inst6|mem~72_q\)) # (!\inst|valor_interno\(2) & ((\inst6|mem~40_q\)))))
+-- \inst6|mem~2171_combout\ = (\inst|valor_interno\(3) & (((\inst|valor_interno\(2))))) # (!\inst|valor_interno\(3) & ((\inst|valor_interno\(2) & (\inst6|mem~72_q\)) # (!\inst|valor_interno\(2) & ((!\inst6|mem~40_q\)))))
 
 -- pragma translate_off
 GENERIC MAP (
-	lut_mask => "1011010110110000",
+	lut_mask => "1110000011100101",
 	sum_lutc_input => "datac")
 -- pragma translate_on
 PORT MAP (
@@ -38778,19 +38681,6 @@ PORT MAP (
 	datad => \inst6|mem~48_q\,
 	combout => \inst6|mem~2176_combout\);
 
-\inst6|mem~3716\ : fiftyfivenm_lcell_comb
--- Equation(s):
--- \inst6|mem~3716_combout\ = !\BusAlta|PortR[7]~10_combout\
-
--- pragma translate_off
-GENERIC MAP (
-	lut_mask => "0101010101010101",
-	sum_lutc_input => "datac")
--- pragma translate_on
-PORT MAP (
-	dataa => \BusAlta|PortR[7]~10_combout\,
-	combout => \inst6|mem~3716_combout\);
-
 \inst6|mem~144\ : dffeas
 -- pragma translate_off
 GENERIC MAP (
@@ -38799,7 +38689,7 @@ GENERIC MAP (
 -- pragma translate_on
 PORT MAP (
 	clk => \ALT_INV_CLK~input_o\,
-	d => \inst6|mem~3716_combout\,
+	d => \BusAlta|PortR[7]~10_combout\,
 	ena => \inst6|mem~3627_combout\,
 	devclrn => ww_devclrn,
 	devpor => ww_devpor,
@@ -38807,11 +38697,11 @@ PORT MAP (
 
 \inst6|mem~2177\ : fiftyfivenm_lcell_comb
 -- Equation(s):
--- \inst6|mem~2177_combout\ = (\inst|valor_interno\(2) & ((\inst6|mem~2176_combout\ & ((!\inst6|mem~144_q\))) # (!\inst6|mem~2176_combout\ & (\inst6|mem~80_q\)))) # (!\inst|valor_interno\(2) & (((\inst6|mem~2176_combout\))))
+-- \inst6|mem~2177_combout\ = (\inst|valor_interno\(2) & ((\inst6|mem~2176_combout\ & ((\inst6|mem~144_q\))) # (!\inst6|mem~2176_combout\ & (\inst6|mem~80_q\)))) # (!\inst|valor_interno\(2) & (((\inst6|mem~2176_combout\))))
 
 -- pragma translate_off
 GENERIC MAP (
-	lut_mask => "0011100011111000",
+	lut_mask => "1111100000111000",
 	sum_lutc_input => "datac")
 -- pragma translate_on
 PORT MAP (
@@ -43221,19 +43111,6 @@ PORT MAP (
 	datad => \inst6|mem~330_q\,
 	combout => \inst6|mem~3108_combout\);
 
-\inst6|mem~3741\ : fiftyfivenm_lcell_comb
--- Equation(s):
--- \inst6|mem~3741_combout\ = !\BusAlta|PortR[1]~22_combout\
-
--- pragma translate_off
-GENERIC MAP (
-	lut_mask => "0101010101010101",
-	sum_lutc_input => "datac")
--- pragma translate_on
-PORT MAP (
-	dataa => \BusAlta|PortR[1]~22_combout\,
-	combout => \inst6|mem~3741_combout\);
-
 \inst6|mem~66\ : dffeas
 -- pragma translate_off
 GENERIC MAP (
@@ -43242,11 +43119,24 @@ GENERIC MAP (
 -- pragma translate_on
 PORT MAP (
 	clk => \ALT_INV_CLK~input_o\,
-	d => \inst6|mem~3741_combout\,
+	d => \BusAlta|PortR[1]~22_combout\,
 	ena => \inst6|mem~3617_combout\,
 	devclrn => ww_devclrn,
 	devpor => ww_devpor,
 	q => \inst6|mem~66_q\);
+
+\inst6|mem~3729\ : fiftyfivenm_lcell_comb
+-- Equation(s):
+-- \inst6|mem~3729_combout\ = !\BusAlta|PortR[1]~22_combout\
+
+-- pragma translate_off
+GENERIC MAP (
+	lut_mask => "0101010101010101",
+	sum_lutc_input => "datac")
+-- pragma translate_on
+PORT MAP (
+	dataa => \BusAlta|PortR[1]~22_combout\,
+	combout => \inst6|mem~3729_combout\);
 
 \inst6|mem~58\ : dffeas
 -- pragma translate_off
@@ -43256,15 +43146,15 @@ GENERIC MAP (
 -- pragma translate_on
 PORT MAP (
 	clk => \ALT_INV_CLK~input_o\,
-	d => \BusAlta|PortR[1]~22_combout\,
+	d => \inst6|mem~3729_combout\,
 	ena => \inst6|mem~3612_combout\,
 	devclrn => ww_devclrn,
 	devpor => ww_devpor,
 	q => \inst6|mem~58_q\);
 
-\inst6|mem~3742\ : fiftyfivenm_lcell_comb
+\inst6|mem~3730\ : fiftyfivenm_lcell_comb
 -- Equation(s):
--- \inst6|mem~3742_combout\ = !\BusAlta|PortR[1]~22_combout\
+-- \inst6|mem~3730_combout\ = !\BusAlta|PortR[1]~22_combout\
 
 -- pragma translate_off
 GENERIC MAP (
@@ -43273,7 +43163,7 @@ GENERIC MAP (
 -- pragma translate_on
 PORT MAP (
 	dataa => \BusAlta|PortR[1]~22_combout\,
-	combout => \inst6|mem~3742_combout\);
+	combout => \inst6|mem~3730_combout\);
 
 \inst6|mem~50\ : dffeas
 -- pragma translate_off
@@ -43283,7 +43173,7 @@ GENERIC MAP (
 -- pragma translate_on
 PORT MAP (
 	clk => \ALT_INV_CLK~input_o\,
-	d => \inst6|mem~3742_combout\,
+	d => \inst6|mem~3730_combout\,
 	ena => \inst6|mem~3623_combout\,
 	devclrn => ww_devclrn,
 	devpor => ww_devpor,
@@ -43291,11 +43181,11 @@ PORT MAP (
 
 \inst6|mem~3109\ : fiftyfivenm_lcell_comb
 -- Equation(s):
--- \inst6|mem~3109_combout\ = (\inst|valor_interno\(1) & (((\inst|valor_interno\(0))))) # (!\inst|valor_interno\(1) & ((\inst|valor_interno\(0) & (\inst6|mem~58_q\)) # (!\inst|valor_interno\(0) & ((!\inst6|mem~50_q\)))))
+-- \inst6|mem~3109_combout\ = (\inst|valor_interno\(1) & (((\inst|valor_interno\(0))))) # (!\inst|valor_interno\(1) & ((\inst|valor_interno\(0) & (!\inst6|mem~58_q\)) # (!\inst|valor_interno\(0) & ((!\inst6|mem~50_q\)))))
 
 -- pragma translate_off
 GENERIC MAP (
-	lut_mask => "1110000011100101",
+	lut_mask => "1011000010110101",
 	sum_lutc_input => "datac")
 -- pragma translate_on
 PORT MAP (
@@ -43305,9 +43195,9 @@ PORT MAP (
 	datad => \inst6|mem~50_q\,
 	combout => \inst6|mem~3109_combout\);
 
-\inst6|mem~3743\ : fiftyfivenm_lcell_comb
+\inst6|mem~3731\ : fiftyfivenm_lcell_comb
 -- Equation(s):
--- \inst6|mem~3743_combout\ = !\BusAlta|PortR[1]~22_combout\
+-- \inst6|mem~3731_combout\ = !\BusAlta|PortR[1]~22_combout\
 
 -- pragma translate_off
 GENERIC MAP (
@@ -43316,7 +43206,7 @@ GENERIC MAP (
 -- pragma translate_on
 PORT MAP (
 	dataa => \BusAlta|PortR[1]~22_combout\,
-	combout => \inst6|mem~3743_combout\);
+	combout => \inst6|mem~3731_combout\);
 
 \inst6|mem~74\ : dffeas
 -- pragma translate_off
@@ -43326,7 +43216,7 @@ GENERIC MAP (
 -- pragma translate_on
 PORT MAP (
 	clk => \ALT_INV_CLK~input_o\,
-	d => \inst6|mem~3743_combout\,
+	d => \inst6|mem~3731_combout\,
 	ena => \inst6|mem~3624_combout\,
 	devclrn => ww_devclrn,
 	devpor => ww_devpor,
@@ -43334,11 +43224,11 @@ PORT MAP (
 
 \inst6|mem~3110\ : fiftyfivenm_lcell_comb
 -- Equation(s):
--- \inst6|mem~3110_combout\ = (\inst|valor_interno\(1) & ((\inst6|mem~3109_combout\ & ((!\inst6|mem~74_q\))) # (!\inst6|mem~3109_combout\ & (!\inst6|mem~66_q\)))) # (!\inst|valor_interno\(1) & (((\inst6|mem~3109_combout\))))
+-- \inst6|mem~3110_combout\ = (\inst|valor_interno\(1) & ((\inst6|mem~3109_combout\ & ((!\inst6|mem~74_q\))) # (!\inst6|mem~3109_combout\ & (\inst6|mem~66_q\)))) # (!\inst|valor_interno\(1) & (((\inst6|mem~3109_combout\))))
 
 -- pragma translate_off
 GENERIC MAP (
-	lut_mask => "0011010011110100",
+	lut_mask => "0011100011111000",
 	sum_lutc_input => "datac")
 -- pragma translate_on
 PORT MAP (
@@ -44768,19 +44658,6 @@ PORT MAP (
 	devpor => ww_devpor,
 	q => \inst6|mem~1114_q\);
 
-\inst6|mem~3744\ : fiftyfivenm_lcell_comb
--- Equation(s):
--- \inst6|mem~3744_combout\ = !\BusAlta|PortR[1]~22_combout\
-
--- pragma translate_off
-GENERIC MAP (
-	lut_mask => "0101010101010101",
-	sum_lutc_input => "datac")
--- pragma translate_on
-PORT MAP (
-	dataa => \BusAlta|PortR[1]~22_combout\,
-	combout => \inst6|mem~3744_combout\);
-
 \inst6|mem~90\ : dffeas
 -- pragma translate_off
 GENERIC MAP (
@@ -44789,7 +44666,7 @@ GENERIC MAP (
 -- pragma translate_on
 PORT MAP (
 	clk => \ALT_INV_CLK~input_o\,
-	d => \inst6|mem~3744_combout\,
+	d => \BusAlta|PortR[1]~22_combout\,
 	ena => \inst6|mem~3613_combout\,
 	devclrn => ww_devclrn,
 	devpor => ww_devpor,
@@ -44797,11 +44674,11 @@ PORT MAP (
 
 \inst6|mem~3149\ : fiftyfivenm_lcell_comb
 -- Equation(s):
--- \inst6|mem~3149_combout\ = (\inst|valor_interno\(6) & (((\inst|valor_interno\(7))))) # (!\inst|valor_interno\(6) & ((\inst|valor_interno\(7) & (\inst6|mem~1114_q\)) # (!\inst|valor_interno\(7) & ((!\inst6|mem~90_q\)))))
+-- \inst6|mem~3149_combout\ = (\inst|valor_interno\(6) & (((\inst|valor_interno\(7))))) # (!\inst|valor_interno\(6) & ((\inst|valor_interno\(7) & (\inst6|mem~1114_q\)) # (!\inst|valor_interno\(7) & ((\inst6|mem~90_q\)))))
 
 -- pragma translate_off
 GENERIC MAP (
-	lut_mask => "1110000011100101",
+	lut_mask => "1110010111100000",
 	sum_lutc_input => "datac")
 -- pragma translate_on
 PORT MAP (
@@ -46053,19 +45930,6 @@ PORT MAP (
 	devpor => ww_devpor,
 	q => \inst6|mem~154_q\);
 
-\inst6|mem~3745\ : fiftyfivenm_lcell_comb
--- Equation(s):
--- \inst6|mem~3745_combout\ = !\BusAlta|PortR[1]~22_combout\
-
--- pragma translate_off
-GENERIC MAP (
-	lut_mask => "0101010101010101",
-	sum_lutc_input => "datac")
--- pragma translate_on
-PORT MAP (
-	dataa => \BusAlta|PortR[1]~22_combout\,
-	combout => \inst6|mem~3745_combout\);
-
 \inst6|mem~146\ : dffeas
 -- pragma translate_off
 GENERIC MAP (
@@ -46074,7 +45938,7 @@ GENERIC MAP (
 -- pragma translate_on
 PORT MAP (
 	clk => \ALT_INV_CLK~input_o\,
-	d => \inst6|mem~3745_combout\,
+	d => \BusAlta|PortR[1]~22_combout\,
 	ena => \inst6|mem~3605_combout\,
 	devclrn => ww_devclrn,
 	devpor => ww_devpor,
@@ -46082,11 +45946,11 @@ PORT MAP (
 
 \inst6|mem~3183\ : fiftyfivenm_lcell_comb
 -- Equation(s):
--- \inst6|mem~3183_combout\ = (\inst|valor_interno\(1) & (((\inst|valor_interno\(0))))) # (!\inst|valor_interno\(1) & ((\inst|valor_interno\(0) & (\inst6|mem~154_q\)) # (!\inst|valor_interno\(0) & ((!\inst6|mem~146_q\)))))
+-- \inst6|mem~3183_combout\ = (\inst|valor_interno\(1) & (((\inst|valor_interno\(0))))) # (!\inst|valor_interno\(1) & ((\inst|valor_interno\(0) & (\inst6|mem~154_q\)) # (!\inst|valor_interno\(0) & ((\inst6|mem~146_q\)))))
 
 -- pragma translate_off
 GENERIC MAP (
-	lut_mask => "1110000011100101",
+	lut_mask => "1110010111100000",
 	sum_lutc_input => "datac")
 -- pragma translate_on
 PORT MAP (
@@ -46422,9 +46286,9 @@ PORT MAP (
 	datad => \inst6|mem~554_q\,
 	combout => \inst6|mem~3192_combout\);
 
-\inst6|mem~3746\ : fiftyfivenm_lcell_comb
+\inst6|mem~3732\ : fiftyfivenm_lcell_comb
 -- Equation(s):
--- \inst6|mem~3746_combout\ = !\BusAlta|PortR[1]~22_combout\
+-- \inst6|mem~3732_combout\ = !\BusAlta|PortR[1]~22_combout\
 
 -- pragma translate_off
 GENERIC MAP (
@@ -46433,7 +46297,7 @@ GENERIC MAP (
 -- pragma translate_on
 PORT MAP (
 	dataa => \BusAlta|PortR[1]~22_combout\,
-	combout => \inst6|mem~3746_combout\);
+	combout => \inst6|mem~3732_combout\);
 
 \inst6|mem~34\ : dffeas
 -- pragma translate_off
@@ -46443,11 +46307,24 @@ GENERIC MAP (
 -- pragma translate_on
 PORT MAP (
 	clk => \ALT_INV_CLK~input_o\,
-	d => \inst6|mem~3746_combout\,
+	d => \inst6|mem~3732_combout\,
 	ena => \inst6|mem~3618_combout\,
 	devclrn => ww_devclrn,
 	devpor => ww_devpor,
 	q => \inst6|mem~34_q\);
+
+\inst6|mem~3733\ : fiftyfivenm_lcell_comb
+-- Equation(s):
+-- \inst6|mem~3733_combout\ = !\BusAlta|PortR[1]~22_combout\
+
+-- pragma translate_off
+GENERIC MAP (
+	lut_mask => "0101010101010101",
+	sum_lutc_input => "datac")
+-- pragma translate_on
+PORT MAP (
+	dataa => \BusAlta|PortR[1]~22_combout\,
+	combout => \inst6|mem~3733_combout\);
 
 \inst6|mem~26\ : dffeas
 -- pragma translate_off
@@ -46457,15 +46334,15 @@ GENERIC MAP (
 -- pragma translate_on
 PORT MAP (
 	clk => \ALT_INV_CLK~input_o\,
-	d => \BusAlta|PortR[1]~22_combout\,
+	d => \inst6|mem~3733_combout\,
 	ena => \inst6|mem~3614_combout\,
 	devclrn => ww_devclrn,
 	devpor => ww_devpor,
 	q => \inst6|mem~26_q\);
 
-\inst6|mem~3747\ : fiftyfivenm_lcell_comb
+\inst6|mem~3734\ : fiftyfivenm_lcell_comb
 -- Equation(s):
--- \inst6|mem~3747_combout\ = !\BusAlta|PortR[1]~22_combout\
+-- \inst6|mem~3734_combout\ = !\BusAlta|PortR[1]~22_combout\
 
 -- pragma translate_off
 GENERIC MAP (
@@ -46474,7 +46351,7 @@ GENERIC MAP (
 -- pragma translate_on
 PORT MAP (
 	dataa => \BusAlta|PortR[1]~22_combout\,
-	combout => \inst6|mem~3747_combout\);
+	combout => \inst6|mem~3734_combout\);
 
 \inst6|mem~18\ : dffeas
 -- pragma translate_off
@@ -46484,7 +46361,7 @@ GENERIC MAP (
 -- pragma translate_on
 PORT MAP (
 	clk => \ALT_INV_CLK~input_o\,
-	d => \inst6|mem~3747_combout\,
+	d => \inst6|mem~3734_combout\,
 	ena => \inst6|mem~3621_combout\,
 	devclrn => ww_devclrn,
 	devpor => ww_devpor,
@@ -46492,11 +46369,11 @@ PORT MAP (
 
 \inst6|mem~3193\ : fiftyfivenm_lcell_comb
 -- Equation(s):
--- \inst6|mem~3193_combout\ = (\inst|valor_interno\(1) & (((\inst|valor_interno\(0))))) # (!\inst|valor_interno\(1) & ((\inst|valor_interno\(0) & (\inst6|mem~26_q\)) # (!\inst|valor_interno\(0) & ((!\inst6|mem~18_q\)))))
+-- \inst6|mem~3193_combout\ = (\inst|valor_interno\(1) & (((\inst|valor_interno\(0))))) # (!\inst|valor_interno\(1) & ((\inst|valor_interno\(0) & (!\inst6|mem~26_q\)) # (!\inst|valor_interno\(0) & ((!\inst6|mem~18_q\)))))
 
 -- pragma translate_off
 GENERIC MAP (
-	lut_mask => "1110000011100101",
+	lut_mask => "1011000010110101",
 	sum_lutc_input => "datac")
 -- pragma translate_on
 PORT MAP (
@@ -46506,19 +46383,6 @@ PORT MAP (
 	datad => \inst6|mem~18_q\,
 	combout => \inst6|mem~3193_combout\);
 
-\inst6|mem~3748\ : fiftyfivenm_lcell_comb
--- Equation(s):
--- \inst6|mem~3748_combout\ = !\BusAlta|PortR[1]~22_combout\
-
--- pragma translate_off
-GENERIC MAP (
-	lut_mask => "0101010101010101",
-	sum_lutc_input => "datac")
--- pragma translate_on
-PORT MAP (
-	dataa => \BusAlta|PortR[1]~22_combout\,
-	combout => \inst6|mem~3748_combout\);
-
 \inst6|mem~42\ : dffeas
 -- pragma translate_off
 GENERIC MAP (
@@ -46527,7 +46391,7 @@ GENERIC MAP (
 -- pragma translate_on
 PORT MAP (
 	clk => \ALT_INV_CLK~input_o\,
-	d => \inst6|mem~3748_combout\,
+	d => \BusAlta|PortR[1]~22_combout\,
 	ena => \inst6|mem~3626_combout\,
 	devclrn => ww_devclrn,
 	devpor => ww_devpor,
@@ -46535,11 +46399,11 @@ PORT MAP (
 
 \inst6|mem~3194\ : fiftyfivenm_lcell_comb
 -- Equation(s):
--- \inst6|mem~3194_combout\ = (\inst|valor_interno\(1) & ((\inst6|mem~3193_combout\ & ((!\inst6|mem~42_q\))) # (!\inst6|mem~3193_combout\ & (!\inst6|mem~34_q\)))) # (!\inst|valor_interno\(1) & (((\inst6|mem~3193_combout\))))
+-- \inst6|mem~3194_combout\ = (\inst|valor_interno\(1) & ((\inst6|mem~3193_combout\ & ((\inst6|mem~42_q\))) # (!\inst6|mem~3193_combout\ & (!\inst6|mem~34_q\)))) # (!\inst|valor_interno\(1) & (((\inst6|mem~3193_combout\))))
 
 -- pragma translate_off
 GENERIC MAP (
-	lut_mask => "0011010011110100",
+	lut_mask => "1111010000110100",
 	sum_lutc_input => "datac")
 -- pragma translate_on
 PORT MAP (
@@ -47897,19 +47761,6 @@ PORT MAP (
 	devpor => ww_devpor,
 	q => \inst6|mem~386_q\);
 
-\inst6|mem~3749\ : fiftyfivenm_lcell_comb
--- Equation(s):
--- \inst6|mem~3749_combout\ = !\BusAlta|PortR[1]~22_combout\
-
--- pragma translate_off
-GENERIC MAP (
-	lut_mask => "0101010101010101",
-	sum_lutc_input => "datac")
--- pragma translate_on
-PORT MAP (
-	dataa => \BusAlta|PortR[1]~22_combout\,
-	combout => \inst6|mem~3749_combout\);
-
 \inst6|mem~130\ : dffeas
 -- pragma translate_off
 GENERIC MAP (
@@ -47918,7 +47769,7 @@ GENERIC MAP (
 -- pragma translate_on
 PORT MAP (
 	clk => \ALT_INV_CLK~input_o\,
-	d => \inst6|mem~3749_combout\,
+	d => \BusAlta|PortR[1]~22_combout\,
 	ena => \inst6|mem~3619_combout\,
 	devclrn => ww_devclrn,
 	devpor => ww_devpor,
@@ -47926,11 +47777,11 @@ PORT MAP (
 
 \inst6|mem~3232\ : fiftyfivenm_lcell_comb
 -- Equation(s):
--- \inst6|mem~3232_combout\ = (\inst|valor_interno\(4) & (((\inst|valor_interno\(5))))) # (!\inst|valor_interno\(4) & ((\inst|valor_interno\(5) & (\inst6|mem~386_q\)) # (!\inst|valor_interno\(5) & ((!\inst6|mem~130_q\)))))
+-- \inst6|mem~3232_combout\ = (\inst|valor_interno\(4) & (((\inst|valor_interno\(5))))) # (!\inst|valor_interno\(4) & ((\inst|valor_interno\(5) & (\inst6|mem~386_q\)) # (!\inst|valor_interno\(5) & ((\inst6|mem~130_q\)))))
 
 -- pragma translate_off
 GENERIC MAP (
-	lut_mask => "1110000011100101",
+	lut_mask => "1110010111100000",
 	sum_lutc_input => "datac")
 -- pragma translate_on
 PORT MAP (
@@ -47998,19 +47849,6 @@ PORT MAP (
 	devpor => ww_devpor,
 	q => \inst6|mem~250_q\);
 
-\inst6|mem~3750\ : fiftyfivenm_lcell_comb
--- Equation(s):
--- \inst6|mem~3750_combout\ = !\BusAlta|PortR[1]~22_combout\
-
--- pragma translate_off
-GENERIC MAP (
-	lut_mask => "0101010101010101",
-	sum_lutc_input => "datac")
--- pragma translate_on
-PORT MAP (
-	dataa => \BusAlta|PortR[1]~22_combout\,
-	combout => \inst6|mem~3750_combout\);
-
 \inst6|mem~122\ : dffeas
 -- pragma translate_off
 GENERIC MAP (
@@ -48019,7 +47857,7 @@ GENERIC MAP (
 -- pragma translate_on
 PORT MAP (
 	clk => \ALT_INV_CLK~input_o\,
-	d => \inst6|mem~3750_combout\,
+	d => \BusAlta|PortR[1]~22_combout\,
 	ena => \inst6|mem~3615_combout\,
 	devclrn => ww_devclrn,
 	devpor => ww_devpor,
@@ -48027,11 +47865,11 @@ PORT MAP (
 
 \inst6|mem~3234\ : fiftyfivenm_lcell_comb
 -- Equation(s):
--- \inst6|mem~3234_combout\ = (\inst|valor_interno\(5) & (((\inst|valor_interno\(4))))) # (!\inst|valor_interno\(5) & ((\inst|valor_interno\(4) & (\inst6|mem~250_q\)) # (!\inst|valor_interno\(4) & ((!\inst6|mem~122_q\)))))
+-- \inst6|mem~3234_combout\ = (\inst|valor_interno\(5) & (((\inst|valor_interno\(4))))) # (!\inst|valor_interno\(5) & ((\inst|valor_interno\(4) & (\inst6|mem~250_q\)) # (!\inst|valor_interno\(4) & ((\inst6|mem~122_q\)))))
 
 -- pragma translate_off
 GENERIC MAP (
-	lut_mask => "1110000011100101",
+	lut_mask => "1110010111100000",
 	sum_lutc_input => "datac")
 -- pragma translate_on
 PORT MAP (
@@ -48203,19 +48041,6 @@ PORT MAP (
 	devpor => ww_devpor,
 	q => \inst6|mem~266_q\);
 
-\inst6|mem~3751\ : fiftyfivenm_lcell_comb
--- Equation(s):
--- \inst6|mem~3751_combout\ = !\BusAlta|PortR[1]~22_combout\
-
--- pragma translate_off
-GENERIC MAP (
-	lut_mask => "0101010101010101",
-	sum_lutc_input => "datac")
--- pragma translate_on
-PORT MAP (
-	dataa => \BusAlta|PortR[1]~22_combout\,
-	combout => \inst6|mem~3751_combout\);
-
 \inst6|mem~138\ : dffeas
 -- pragma translate_off
 GENERIC MAP (
@@ -48224,7 +48049,7 @@ GENERIC MAP (
 -- pragma translate_on
 PORT MAP (
 	clk => \ALT_INV_CLK~input_o\,
-	d => \inst6|mem~3751_combout\,
+	d => \BusAlta|PortR[1]~22_combout\,
 	ena => \inst6|mem~3627_combout\,
 	devclrn => ww_devclrn,
 	devpor => ww_devpor,
@@ -48232,11 +48057,11 @@ PORT MAP (
 
 \inst6|mem~3239\ : fiftyfivenm_lcell_comb
 -- Equation(s):
--- \inst6|mem~3239_combout\ = (\inst|valor_interno\(5) & (((\inst|valor_interno\(4))))) # (!\inst|valor_interno\(5) & ((\inst|valor_interno\(4) & (\inst6|mem~266_q\)) # (!\inst|valor_interno\(4) & ((!\inst6|mem~138_q\)))))
+-- \inst6|mem~3239_combout\ = (\inst|valor_interno\(5) & (((\inst|valor_interno\(4))))) # (!\inst|valor_interno\(5) & ((\inst|valor_interno\(4) & (\inst6|mem~266_q\)) # (!\inst|valor_interno\(4) & ((\inst6|mem~138_q\)))))
 
 -- pragma translate_off
 GENERIC MAP (
-	lut_mask => "1110000011100101",
+	lut_mask => "1110010111100000",
 	sum_lutc_input => "datac")
 -- pragma translate_on
 PORT MAP (
@@ -50431,19 +50256,6 @@ PORT MAP (
 	devpor => ww_devpor,
 	q => \inst6|mem~217_q\);
 
-\inst6|mem~3752\ : fiftyfivenm_lcell_comb
--- Equation(s):
--- \inst6|mem~3752_combout\ = !\BusAlta|PortR[0]~24_combout\
-
--- pragma translate_off
-GENERIC MAP (
-	lut_mask => "0101010101010101",
-	sum_lutc_input => "datac")
--- pragma translate_on
-PORT MAP (
-	dataa => \BusAlta|PortR[0]~24_combout\,
-	combout => \inst6|mem~3752_combout\);
-
 \inst6|mem~153\ : dffeas
 -- pragma translate_off
 GENERIC MAP (
@@ -50452,7 +50264,7 @@ GENERIC MAP (
 -- pragma translate_on
 PORT MAP (
 	clk => \ALT_INV_CLK~input_o\,
-	d => \inst6|mem~3752_combout\,
+	d => \BusAlta|PortR[0]~24_combout\,
 	ena => \inst6|mem~3604_combout\,
 	devclrn => ww_devclrn,
 	devpor => ww_devpor,
@@ -50460,11 +50272,11 @@ PORT MAP (
 
 \inst6|mem~3259\ : fiftyfivenm_lcell_comb
 -- Equation(s):
--- \inst6|mem~3259_combout\ = (\inst|valor_interno\(2) & (((\inst|valor_interno\(3))))) # (!\inst|valor_interno\(2) & ((\inst|valor_interno\(3) & (\inst6|mem~217_q\)) # (!\inst|valor_interno\(3) & ((!\inst6|mem~153_q\)))))
+-- \inst6|mem~3259_combout\ = (\inst|valor_interno\(2) & (((\inst|valor_interno\(3))))) # (!\inst|valor_interno\(2) & ((\inst|valor_interno\(3) & (\inst6|mem~217_q\)) # (!\inst|valor_interno\(3) & ((\inst6|mem~153_q\)))))
 
 -- pragma translate_off
 GENERIC MAP (
-	lut_mask => "1110000011100101",
+	lut_mask => "1110010111100000",
 	sum_lutc_input => "datac")
 -- pragma translate_on
 PORT MAP (
@@ -50828,19 +50640,6 @@ PORT MAP (
 	devpor => ww_devpor,
 	q => \inst6|mem~225_q\);
 
-\inst6|mem~3753\ : fiftyfivenm_lcell_comb
--- Equation(s):
--- \inst6|mem~3753_combout\ = !\BusAlta|PortR[0]~24_combout\
-
--- pragma translate_off
-GENERIC MAP (
-	lut_mask => "0101010101010101",
-	sum_lutc_input => "datac")
--- pragma translate_on
-PORT MAP (
-	dataa => \BusAlta|PortR[0]~24_combout\,
-	combout => \inst6|mem~3753_combout\);
-
 \inst6|mem~161\ : dffeas
 -- pragma translate_off
 GENERIC MAP (
@@ -50849,7 +50648,7 @@ GENERIC MAP (
 -- pragma translate_on
 PORT MAP (
 	clk => \ALT_INV_CLK~input_o\,
-	d => \inst6|mem~3753_combout\,
+	d => \BusAlta|PortR[0]~24_combout\,
 	ena => \inst6|mem~3603_combout\,
 	devclrn => ww_devclrn,
 	devpor => ww_devpor,
@@ -50857,11 +50656,11 @@ PORT MAP (
 
 \inst6|mem~3269\ : fiftyfivenm_lcell_comb
 -- Equation(s):
--- \inst6|mem~3269_combout\ = (\inst|valor_interno\(2) & (((\inst|valor_interno\(3))))) # (!\inst|valor_interno\(2) & ((\inst|valor_interno\(3) & (\inst6|mem~225_q\)) # (!\inst|valor_interno\(3) & ((!\inst6|mem~161_q\)))))
+-- \inst6|mem~3269_combout\ = (\inst|valor_interno\(2) & (((\inst|valor_interno\(3))))) # (!\inst|valor_interno\(2) & ((\inst|valor_interno\(3) & (\inst6|mem~225_q\)) # (!\inst|valor_interno\(3) & ((\inst6|mem~161_q\)))))
 
 -- pragma translate_off
 GENERIC MAP (
-	lut_mask => "1110000011100101",
+	lut_mask => "1110010111100000",
 	sum_lutc_input => "datac")
 -- pragma translate_on
 PORT MAP (
@@ -51225,19 +51024,6 @@ PORT MAP (
 	devpor => ww_devpor,
 	q => \inst6|mem~209_q\);
 
-\inst6|mem~3754\ : fiftyfivenm_lcell_comb
--- Equation(s):
--- \inst6|mem~3754_combout\ = !\BusAlta|PortR[0]~24_combout\
-
--- pragma translate_off
-GENERIC MAP (
-	lut_mask => "0101010101010101",
-	sum_lutc_input => "datac")
--- pragma translate_on
-PORT MAP (
-	dataa => \BusAlta|PortR[0]~24_combout\,
-	combout => \inst6|mem~3754_combout\);
-
 \inst6|mem~145\ : dffeas
 -- pragma translate_off
 GENERIC MAP (
@@ -51246,7 +51032,7 @@ GENERIC MAP (
 -- pragma translate_on
 PORT MAP (
 	clk => \ALT_INV_CLK~input_o\,
-	d => \inst6|mem~3754_combout\,
+	d => \BusAlta|PortR[0]~24_combout\,
 	ena => \inst6|mem~3605_combout\,
 	devclrn => ww_devclrn,
 	devpor => ww_devpor,
@@ -51254,11 +51040,11 @@ PORT MAP (
 
 \inst6|mem~3279\ : fiftyfivenm_lcell_comb
 -- Equation(s):
--- \inst6|mem~3279_combout\ = (\inst|valor_interno\(2) & (((\inst|valor_interno\(3))))) # (!\inst|valor_interno\(2) & ((\inst|valor_interno\(3) & (\inst6|mem~209_q\)) # (!\inst|valor_interno\(3) & ((!\inst6|mem~145_q\)))))
+-- \inst6|mem~3279_combout\ = (\inst|valor_interno\(2) & (((\inst|valor_interno\(3))))) # (!\inst|valor_interno\(2) & ((\inst|valor_interno\(3) & (\inst6|mem~209_q\)) # (!\inst|valor_interno\(3) & ((\inst6|mem~145_q\)))))
 
 -- pragma translate_off
 GENERIC MAP (
-	lut_mask => "1110000011100101",
+	lut_mask => "1110010111100000",
 	sum_lutc_input => "datac")
 -- pragma translate_on
 PORT MAP (
@@ -54170,9 +53956,9 @@ PORT MAP (
 	datad => \inst6|mem~3357_combout\,
 	combout => \inst6|mem~3358_combout\);
 
-\inst6|mem~3755\ : fiftyfivenm_lcell_comb
+\inst6|mem~3735\ : fiftyfivenm_lcell_comb
 -- Equation(s):
--- \inst6|mem~3755_combout\ = !\BusAlta|PortR[0]~24_combout\
+-- \inst6|mem~3735_combout\ = !\BusAlta|PortR[0]~24_combout\
 
 -- pragma translate_off
 GENERIC MAP (
@@ -54181,7 +53967,7 @@ GENERIC MAP (
 -- pragma translate_on
 PORT MAP (
 	dataa => \BusAlta|PortR[0]~24_combout\,
-	combout => \inst6|mem~3755_combout\);
+	combout => \inst6|mem~3735_combout\);
 
 \inst6|mem~65\ : dffeas
 -- pragma translate_off
@@ -54191,7 +53977,7 @@ GENERIC MAP (
 -- pragma translate_on
 PORT MAP (
 	clk => \ALT_INV_CLK~input_o\,
-	d => \inst6|mem~3755_combout\,
+	d => \inst6|mem~3735_combout\,
 	ena => \inst6|mem~3617_combout\,
 	devclrn => ww_devclrn,
 	devpor => ww_devpor,
@@ -54285,19 +54071,6 @@ PORT MAP (
 	devpor => ww_devpor,
 	q => \inst6|mem~89_q\);
 
-\inst6|mem~3756\ : fiftyfivenm_lcell_comb
--- Equation(s):
--- \inst6|mem~3756_combout\ = !\BusAlta|PortR[0]~24_combout\
-
--- pragma translate_off
-GENERIC MAP (
-	lut_mask => "0101010101010101",
-	sum_lutc_input => "datac")
--- pragma translate_on
-PORT MAP (
-	dataa => \BusAlta|PortR[0]~24_combout\,
-	combout => \inst6|mem~3756_combout\);
-
 \inst6|mem~57\ : dffeas
 -- pragma translate_off
 GENERIC MAP (
@@ -54306,7 +54079,7 @@ GENERIC MAP (
 -- pragma translate_on
 PORT MAP (
 	clk => \ALT_INV_CLK~input_o\,
-	d => \inst6|mem~3756_combout\,
+	d => \BusAlta|PortR[0]~24_combout\,
 	ena => \inst6|mem~3612_combout\,
 	devclrn => ww_devclrn,
 	devpor => ww_devpor,
@@ -54328,11 +54101,11 @@ PORT MAP (
 
 \inst6|mem~3361\ : fiftyfivenm_lcell_comb
 -- Equation(s):
--- \inst6|mem~3361_combout\ = (\inst|valor_interno\(3) & (((\inst|valor_interno\(2))))) # (!\inst|valor_interno\(3) & ((\inst|valor_interno\(2) & (!\inst6|mem~57_q\)) # (!\inst|valor_interno\(2) & ((\inst6|mem~25_q\)))))
+-- \inst6|mem~3361_combout\ = (\inst|valor_interno\(3) & (((\inst|valor_interno\(2))))) # (!\inst|valor_interno\(3) & ((\inst|valor_interno\(2) & (\inst6|mem~57_q\)) # (!\inst|valor_interno\(2) & ((\inst6|mem~25_q\)))))
 
 -- pragma translate_off
 GENERIC MAP (
-	lut_mask => "1011010110110000",
+	lut_mask => "1110010111100000",
 	sum_lutc_input => "datac")
 -- pragma translate_on
 PORT MAP (
@@ -54372,23 +54145,9 @@ PORT MAP (
 	datad => \inst6|mem~121_q\,
 	combout => \inst6|mem~3362_combout\);
 
-\inst6|mem~49\ : dffeas
--- pragma translate_off
-GENERIC MAP (
-	is_wysiwyg => "true",
-	power_up => "low")
--- pragma translate_on
-PORT MAP (
-	clk => \ALT_INV_CLK~input_o\,
-	d => \BusAlta|PortR[0]~24_combout\,
-	ena => \inst6|mem~3623_combout\,
-	devclrn => ww_devclrn,
-	devpor => ww_devpor,
-	q => \inst6|mem~49_q\);
-
-\inst6|mem~3757\ : fiftyfivenm_lcell_comb
+\inst6|mem~3736\ : fiftyfivenm_lcell_comb
 -- Equation(s):
--- \inst6|mem~3757_combout\ = !\BusAlta|PortR[0]~24_combout\
+-- \inst6|mem~3736_combout\ = !\BusAlta|PortR[0]~24_combout\
 
 -- pragma translate_off
 GENERIC MAP (
@@ -54397,7 +54156,21 @@ GENERIC MAP (
 -- pragma translate_on
 PORT MAP (
 	dataa => \BusAlta|PortR[0]~24_combout\,
-	combout => \inst6|mem~3757_combout\);
+	combout => \inst6|mem~3736_combout\);
+
+\inst6|mem~49\ : dffeas
+-- pragma translate_off
+GENERIC MAP (
+	is_wysiwyg => "true",
+	power_up => "low")
+-- pragma translate_on
+PORT MAP (
+	clk => \ALT_INV_CLK~input_o\,
+	d => \inst6|mem~3736_combout\,
+	ena => \inst6|mem~3623_combout\,
+	devclrn => ww_devclrn,
+	devpor => ww_devpor,
+	q => \inst6|mem~49_q\);
 
 \inst6|mem~81\ : dffeas
 -- pragma translate_off
@@ -54407,7 +54180,7 @@ GENERIC MAP (
 -- pragma translate_on
 PORT MAP (
 	clk => \ALT_INV_CLK~input_o\,
-	d => \inst6|mem~3757_combout\,
+	d => \BusAlta|PortR[0]~24_combout\,
 	ena => \inst6|mem~3620_combout\,
 	devclrn => ww_devclrn,
 	devpor => ww_devpor,
@@ -54429,11 +54202,11 @@ PORT MAP (
 
 \inst6|mem~3363\ : fiftyfivenm_lcell_comb
 -- Equation(s):
--- \inst6|mem~3363_combout\ = (\inst|valor_interno\(2) & (((\inst|valor_interno\(3))))) # (!\inst|valor_interno\(2) & ((\inst|valor_interno\(3) & (!\inst6|mem~81_q\)) # (!\inst|valor_interno\(3) & ((\inst6|mem~17_q\)))))
+-- \inst6|mem~3363_combout\ = (\inst|valor_interno\(2) & (((\inst|valor_interno\(3))))) # (!\inst|valor_interno\(2) & ((\inst|valor_interno\(3) & (\inst6|mem~81_q\)) # (!\inst|valor_interno\(3) & ((\inst6|mem~17_q\)))))
 
 -- pragma translate_off
 GENERIC MAP (
-	lut_mask => "1011010110110000",
+	lut_mask => "1110010111100000",
 	sum_lutc_input => "datac")
 -- pragma translate_on
 PORT MAP (
@@ -54459,11 +54232,11 @@ PORT MAP (
 
 \inst6|mem~3364\ : fiftyfivenm_lcell_comb
 -- Equation(s):
--- \inst6|mem~3364_combout\ = (\inst|valor_interno\(2) & ((\inst6|mem~3363_combout\ & ((\inst6|mem~113_q\))) # (!\inst6|mem~3363_combout\ & (\inst6|mem~49_q\)))) # (!\inst|valor_interno\(2) & (((\inst6|mem~3363_combout\))))
+-- \inst6|mem~3364_combout\ = (\inst|valor_interno\(2) & ((\inst6|mem~3363_combout\ & ((\inst6|mem~113_q\))) # (!\inst6|mem~3363_combout\ & (!\inst6|mem~49_q\)))) # (!\inst|valor_interno\(2) & (((\inst6|mem~3363_combout\))))
 
 -- pragma translate_off
 GENERIC MAP (
-	lut_mask => "1111100000111000",
+	lut_mask => "1111010000110100",
 	sum_lutc_input => "datac")
 -- pragma translate_on
 PORT MAP (
@@ -54503,6 +54276,19 @@ PORT MAP (
 	devpor => ww_devpor,
 	q => \inst6|mem~105_q\);
 
+\inst6|mem~3737\ : fiftyfivenm_lcell_comb
+-- Equation(s):
+-- \inst6|mem~3737_combout\ = !\BusAlta|PortR[0]~24_combout\
+
+-- pragma translate_off
+GENERIC MAP (
+	lut_mask => "0101010101010101",
+	sum_lutc_input => "datac")
+-- pragma translate_on
+PORT MAP (
+	dataa => \BusAlta|PortR[0]~24_combout\,
+	combout => \inst6|mem~3737_combout\);
+
 \inst6|mem~73\ : dffeas
 -- pragma translate_off
 GENERIC MAP (
@@ -54511,11 +54297,24 @@ GENERIC MAP (
 -- pragma translate_on
 PORT MAP (
 	clk => \ALT_INV_CLK~input_o\,
-	d => \BusAlta|PortR[0]~24_combout\,
+	d => \inst6|mem~3737_combout\,
 	ena => \inst6|mem~3624_combout\,
 	devclrn => ww_devclrn,
 	devpor => ww_devpor,
 	q => \inst6|mem~73_q\);
+
+\inst6|mem~3738\ : fiftyfivenm_lcell_comb
+-- Equation(s):
+-- \inst6|mem~3738_combout\ = !\BusAlta|PortR[0]~24_combout\
+
+-- pragma translate_off
+GENERIC MAP (
+	lut_mask => "0101010101010101",
+	sum_lutc_input => "datac")
+-- pragma translate_on
+PORT MAP (
+	dataa => \BusAlta|PortR[0]~24_combout\,
+	combout => \inst6|mem~3738_combout\);
 
 \inst6|mem~41\ : dffeas
 -- pragma translate_off
@@ -54525,7 +54324,7 @@ GENERIC MAP (
 -- pragma translate_on
 PORT MAP (
 	clk => \ALT_INV_CLK~input_o\,
-	d => \BusAlta|PortR[0]~24_combout\,
+	d => \inst6|mem~3738_combout\,
 	ena => \inst6|mem~3626_combout\,
 	devclrn => ww_devclrn,
 	devpor => ww_devpor,
@@ -54533,11 +54332,11 @@ PORT MAP (
 
 \inst6|mem~3366\ : fiftyfivenm_lcell_comb
 -- Equation(s):
--- \inst6|mem~3366_combout\ = (\inst|valor_interno\(3) & (((\inst|valor_interno\(2))))) # (!\inst|valor_interno\(3) & ((\inst|valor_interno\(2) & (\inst6|mem~73_q\)) # (!\inst|valor_interno\(2) & ((\inst6|mem~41_q\)))))
+-- \inst6|mem~3366_combout\ = (\inst|valor_interno\(3) & (((\inst|valor_interno\(2))))) # (!\inst|valor_interno\(3) & ((\inst|valor_interno\(2) & (!\inst6|mem~73_q\)) # (!\inst|valor_interno\(2) & ((!\inst6|mem~41_q\)))))
 
 -- pragma translate_off
 GENERIC MAP (
-	lut_mask => "1110010111100000",
+	lut_mask => "1011000010110101",
 	sum_lutc_input => "datac")
 -- pragma translate_on
 PORT MAP (
@@ -57576,6 +57375,19 @@ PORT MAP (
 	devpor => ww_devpor,
 	q => \inst6|mem~571_q\);
 
+\inst6|mem~3724\ : fiftyfivenm_lcell_comb
+-- Equation(s):
+-- \inst6|mem~3724_combout\ = !\BusAlta|PortR[2]~20_combout\
+
+-- pragma translate_off
+GENERIC MAP (
+	lut_mask => "0101010101010101",
+	sum_lutc_input => "datac")
+-- pragma translate_on
+PORT MAP (
+	dataa => \BusAlta|PortR[2]~20_combout\,
+	combout => \inst6|mem~3724_combout\);
+
 \inst6|mem~59\ : dffeas
 -- pragma translate_off
 GENERIC MAP (
@@ -57584,7 +57396,7 @@ GENERIC MAP (
 -- pragma translate_on
 PORT MAP (
 	clk => \ALT_INV_CLK~input_o\,
-	d => \BusAlta|PortR[2]~20_combout\,
+	d => \inst6|mem~3724_combout\,
 	ena => \inst6|mem~3612_combout\,
 	devclrn => ww_devclrn,
 	devpor => ww_devpor,
@@ -57592,11 +57404,11 @@ PORT MAP (
 
 \inst6|mem~2929\ : fiftyfivenm_lcell_comb
 -- Equation(s):
--- \inst6|mem~2929_combout\ = (\inst|valor_interno\(7) & (((\inst|valor_interno\(6))))) # (!\inst|valor_interno\(7) & ((\inst|valor_interno\(6) & (\inst6|mem~571_q\)) # (!\inst|valor_interno\(6) & ((\inst6|mem~59_q\)))))
+-- \inst6|mem~2929_combout\ = (\inst|valor_interno\(7) & (((\inst|valor_interno\(6))))) # (!\inst|valor_interno\(7) & ((\inst|valor_interno\(6) & (\inst6|mem~571_q\)) # (!\inst|valor_interno\(6) & ((!\inst6|mem~59_q\)))))
 
 -- pragma translate_off
 GENERIC MAP (
-	lut_mask => "1110010111100000",
+	lut_mask => "1110000011100101",
 	sum_lutc_input => "datac")
 -- pragma translate_on
 PORT MAP (
@@ -57784,19 +57596,6 @@ PORT MAP (
 	devpor => ww_devpor,
 	q => \inst6|mem~1179_q\);
 
-\inst6|mem~3734\ : fiftyfivenm_lcell_comb
--- Equation(s):
--- \inst6|mem~3734_combout\ = !\BusAlta|PortR[2]~20_combout\
-
--- pragma translate_off
-GENERIC MAP (
-	lut_mask => "0101010101010101",
-	sum_lutc_input => "datac")
--- pragma translate_on
-PORT MAP (
-	dataa => \BusAlta|PortR[2]~20_combout\,
-	combout => \inst6|mem~3734_combout\);
-
 \inst6|mem~155\ : dffeas
 -- pragma translate_off
 GENERIC MAP (
@@ -57805,7 +57604,7 @@ GENERIC MAP (
 -- pragma translate_on
 PORT MAP (
 	clk => \ALT_INV_CLK~input_o\,
-	d => \inst6|mem~3734_combout\,
+	d => \BusAlta|PortR[2]~20_combout\,
 	ena => \inst6|mem~3604_combout\,
 	devclrn => ww_devclrn,
 	devpor => ww_devpor,
@@ -57813,11 +57612,11 @@ PORT MAP (
 
 \inst6|mem~2935\ : fiftyfivenm_lcell_comb
 -- Equation(s):
--- \inst6|mem~2935_combout\ = (\inst|valor_interno\(6) & (((\inst|valor_interno\(7))))) # (!\inst|valor_interno\(6) & ((\inst|valor_interno\(7) & (\inst6|mem~1179_q\)) # (!\inst|valor_interno\(7) & ((!\inst6|mem~155_q\)))))
+-- \inst6|mem~2935_combout\ = (\inst|valor_interno\(6) & (((\inst|valor_interno\(7))))) # (!\inst|valor_interno\(6) & ((\inst|valor_interno\(7) & (\inst6|mem~1179_q\)) # (!\inst|valor_interno\(7) & ((\inst6|mem~155_q\)))))
 
 -- pragma translate_off
 GENERIC MAP (
-	lut_mask => "1110000011100101",
+	lut_mask => "1110010111100000",
 	sum_lutc_input => "datac")
 -- pragma translate_on
 PORT MAP (
@@ -58373,19 +58172,6 @@ PORT MAP (
 	devpor => ww_devpor,
 	q => \inst6|mem~1147_q\);
 
-\inst6|mem~3735\ : fiftyfivenm_lcell_comb
--- Equation(s):
--- \inst6|mem~3735_combout\ = !\BusAlta|PortR[2]~20_combout\
-
--- pragma translate_off
-GENERIC MAP (
-	lut_mask => "0101010101010101",
-	sum_lutc_input => "datac")
--- pragma translate_on
-PORT MAP (
-	dataa => \BusAlta|PortR[2]~20_combout\,
-	combout => \inst6|mem~3735_combout\);
-
 \inst6|mem~123\ : dffeas
 -- pragma translate_off
 GENERIC MAP (
@@ -58394,7 +58180,7 @@ GENERIC MAP (
 -- pragma translate_on
 PORT MAP (
 	clk => \ALT_INV_CLK~input_o\,
-	d => \inst6|mem~3735_combout\,
+	d => \BusAlta|PortR[2]~20_combout\,
 	ena => \inst6|mem~3615_combout\,
 	devclrn => ww_devclrn,
 	devpor => ww_devpor,
@@ -58402,11 +58188,11 @@ PORT MAP (
 
 \inst6|mem~2950\ : fiftyfivenm_lcell_comb
 -- Equation(s):
--- \inst6|mem~2950_combout\ = (\inst|valor_interno\(6) & (((\inst|valor_interno\(7))))) # (!\inst|valor_interno\(6) & ((\inst|valor_interno\(7) & (\inst6|mem~1147_q\)) # (!\inst|valor_interno\(7) & ((!\inst6|mem~123_q\)))))
+-- \inst6|mem~2950_combout\ = (\inst|valor_interno\(6) & (((\inst|valor_interno\(7))))) # (!\inst|valor_interno\(6) & ((\inst|valor_interno\(7) & (\inst6|mem~1147_q\)) # (!\inst|valor_interno\(7) & ((\inst6|mem~123_q\)))))
 
 -- pragma translate_off
 GENERIC MAP (
-	lut_mask => "1110000011100101",
+	lut_mask => "1110010111100000",
 	sum_lutc_input => "datac")
 -- pragma translate_on
 PORT MAP (
@@ -59526,19 +59312,6 @@ PORT MAP (
 	datad => \inst6|mem~1155_q\,
 	combout => \inst6|mem~2980_combout\);
 
-\inst6|mem~3736\ : fiftyfivenm_lcell_comb
--- Equation(s):
--- \inst6|mem~3736_combout\ = !\BusAlta|PortR[2]~20_combout\
-
--- pragma translate_off
-GENERIC MAP (
-	lut_mask => "0101010101010101",
-	sum_lutc_input => "datac")
--- pragma translate_on
-PORT MAP (
-	dataa => \BusAlta|PortR[2]~20_combout\,
-	combout => \inst6|mem~3736_combout\);
-
 \inst6|mem~67\ : dffeas
 -- pragma translate_off
 GENERIC MAP (
@@ -59547,7 +59320,7 @@ GENERIC MAP (
 -- pragma translate_on
 PORT MAP (
 	clk => \ALT_INV_CLK~input_o\,
-	d => \inst6|mem~3736_combout\,
+	d => \BusAlta|PortR[2]~20_combout\,
 	ena => \inst6|mem~3617_combout\,
 	devclrn => ww_devclrn,
 	devpor => ww_devpor,
@@ -59567,6 +59340,19 @@ PORT MAP (
 	devpor => ww_devpor,
 	q => \inst6|mem~99_q\);
 
+\inst6|mem~3725\ : fiftyfivenm_lcell_comb
+-- Equation(s):
+-- \inst6|mem~3725_combout\ = !\BusAlta|PortR[2]~20_combout\
+
+-- pragma translate_off
+GENERIC MAP (
+	lut_mask => "0101010101010101",
+	sum_lutc_input => "datac")
+-- pragma translate_on
+PORT MAP (
+	dataa => \BusAlta|PortR[2]~20_combout\,
+	combout => \inst6|mem~3725_combout\);
+
 \inst6|mem~35\ : dffeas
 -- pragma translate_off
 GENERIC MAP (
@@ -59575,7 +59361,7 @@ GENERIC MAP (
 -- pragma translate_on
 PORT MAP (
 	clk => \ALT_INV_CLK~input_o\,
-	d => \BusAlta|PortR[2]~20_combout\,
+	d => \inst6|mem~3725_combout\,
 	ena => \inst6|mem~3618_combout\,
 	devclrn => ww_devclrn,
 	devpor => ww_devpor,
@@ -59583,11 +59369,11 @@ PORT MAP (
 
 \inst6|mem~2981\ : fiftyfivenm_lcell_comb
 -- Equation(s):
--- \inst6|mem~2981_combout\ = (\inst|valor_interno\(2) & (((\inst|valor_interno\(3))))) # (!\inst|valor_interno\(2) & ((\inst|valor_interno\(3) & (\inst6|mem~99_q\)) # (!\inst|valor_interno\(3) & ((\inst6|mem~35_q\)))))
+-- \inst6|mem~2981_combout\ = (\inst|valor_interno\(2) & (((\inst|valor_interno\(3))))) # (!\inst|valor_interno\(2) & ((\inst|valor_interno\(3) & (\inst6|mem~99_q\)) # (!\inst|valor_interno\(3) & ((!\inst6|mem~35_q\)))))
 
 -- pragma translate_off
 GENERIC MAP (
-	lut_mask => "1110010111100000",
+	lut_mask => "1110000011100101",
 	sum_lutc_input => "datac")
 -- pragma translate_on
 PORT MAP (
@@ -59613,11 +59399,11 @@ PORT MAP (
 
 \inst6|mem~2982\ : fiftyfivenm_lcell_comb
 -- Equation(s):
--- \inst6|mem~2982_combout\ = (\inst|valor_interno\(2) & ((\inst6|mem~2981_combout\ & ((\inst6|mem~131_q\))) # (!\inst6|mem~2981_combout\ & (!\inst6|mem~67_q\)))) # (!\inst|valor_interno\(2) & (((\inst6|mem~2981_combout\))))
+-- \inst6|mem~2982_combout\ = (\inst|valor_interno\(2) & ((\inst6|mem~2981_combout\ & ((\inst6|mem~131_q\))) # (!\inst6|mem~2981_combout\ & (\inst6|mem~67_q\)))) # (!\inst|valor_interno\(2) & (((\inst6|mem~2981_combout\))))
 
 -- pragma translate_off
 GENERIC MAP (
-	lut_mask => "1111010000110100",
+	lut_mask => "1111100000111000",
 	sum_lutc_input => "datac")
 -- pragma translate_on
 PORT MAP (
@@ -61135,9 +60921,9 @@ PORT MAP (
 	devpor => ww_devpor,
 	q => \inst6|mem~531_q\);
 
-\inst6|mem~3737\ : fiftyfivenm_lcell_comb
+\inst6|mem~3726\ : fiftyfivenm_lcell_comb
 -- Equation(s):
--- \inst6|mem~3737_combout\ = !\BusAlta|PortR[2]~20_combout\
+-- \inst6|mem~3726_combout\ = !\BusAlta|PortR[2]~20_combout\
 
 -- pragma translate_off
 GENERIC MAP (
@@ -61146,7 +60932,7 @@ GENERIC MAP (
 -- pragma translate_on
 PORT MAP (
 	dataa => \BusAlta|PortR[2]~20_combout\,
-	combout => \inst6|mem~3737_combout\);
+	combout => \inst6|mem~3726_combout\);
 
 \inst6|mem~19\ : dffeas
 -- pragma translate_off
@@ -61156,7 +60942,7 @@ GENERIC MAP (
 -- pragma translate_on
 PORT MAP (
 	clk => \ALT_INV_CLK~input_o\,
-	d => \inst6|mem~3737_combout\,
+	d => \inst6|mem~3726_combout\,
 	ena => \inst6|mem~3621_combout\,
 	devclrn => ww_devclrn,
 	devpor => ww_devpor,
@@ -61548,19 +61334,6 @@ PORT MAP (
 	devpor => ww_devpor,
 	q => \inst6|mem~627_q\);
 
-\inst6|mem~3738\ : fiftyfivenm_lcell_comb
--- Equation(s):
--- \inst6|mem~3738_combout\ = !\BusAlta|PortR[2]~20_combout\
-
--- pragma translate_off
-GENERIC MAP (
-	lut_mask => "0101010101010101",
-	sum_lutc_input => "datac")
--- pragma translate_on
-PORT MAP (
-	dataa => \BusAlta|PortR[2]~20_combout\,
-	combout => \inst6|mem~3738_combout\);
-
 \inst6|mem~115\ : dffeas
 -- pragma translate_off
 GENERIC MAP (
@@ -61569,7 +61342,7 @@ GENERIC MAP (
 -- pragma translate_on
 PORT MAP (
 	clk => \ALT_INV_CLK~input_o\,
-	d => \inst6|mem~3738_combout\,
+	d => \BusAlta|PortR[2]~20_combout\,
 	ena => \inst6|mem~3622_combout\,
 	devclrn => ww_devclrn,
 	devpor => ww_devpor,
@@ -61577,11 +61350,11 @@ PORT MAP (
 
 \inst6|mem~3034\ : fiftyfivenm_lcell_comb
 -- Equation(s):
--- \inst6|mem~3034_combout\ = (\inst|valor_interno\(7) & (((\inst|valor_interno\(6))))) # (!\inst|valor_interno\(7) & ((\inst|valor_interno\(6) & (\inst6|mem~627_q\)) # (!\inst|valor_interno\(6) & ((!\inst6|mem~115_q\)))))
+-- \inst6|mem~3034_combout\ = (\inst|valor_interno\(7) & (((\inst|valor_interno\(6))))) # (!\inst|valor_interno\(7) & ((\inst|valor_interno\(6) & (\inst6|mem~627_q\)) # (!\inst|valor_interno\(6) & ((\inst6|mem~115_q\)))))
 
 -- pragma translate_off
 GENERIC MAP (
-	lut_mask => "1110000011100101",
+	lut_mask => "1110010111100000",
 	sum_lutc_input => "datac")
 -- pragma translate_on
 PORT MAP (
@@ -61977,6 +61750,19 @@ PORT MAP (
 	devpor => ww_devpor,
 	q => \inst6|mem~203_q\);
 
+\inst6|mem~3727\ : fiftyfivenm_lcell_comb
+-- Equation(s):
+-- \inst6|mem~3727_combout\ = !\BusAlta|PortR[2]~20_combout\
+
+-- pragma translate_off
+GENERIC MAP (
+	lut_mask => "0101010101010101",
+	sum_lutc_input => "datac")
+-- pragma translate_on
+PORT MAP (
+	dataa => \BusAlta|PortR[2]~20_combout\,
+	combout => \inst6|mem~3727_combout\);
+
 \inst6|mem~75\ : dffeas
 -- pragma translate_off
 GENERIC MAP (
@@ -61985,7 +61771,7 @@ GENERIC MAP (
 -- pragma translate_on
 PORT MAP (
 	clk => \ALT_INV_CLK~input_o\,
-	d => \BusAlta|PortR[2]~20_combout\,
+	d => \inst6|mem~3727_combout\,
 	ena => \inst6|mem~3624_combout\,
 	devclrn => ww_devclrn,
 	devpor => ww_devpor,
@@ -61993,11 +61779,11 @@ PORT MAP (
 
 \inst6|mem~3046\ : fiftyfivenm_lcell_comb
 -- Equation(s):
--- \inst6|mem~3046_combout\ = (\inst|valor_interno\(5) & (((\inst|valor_interno\(4))))) # (!\inst|valor_interno\(5) & ((\inst|valor_interno\(4) & (\inst6|mem~203_q\)) # (!\inst|valor_interno\(4) & ((\inst6|mem~75_q\)))))
+-- \inst6|mem~3046_combout\ = (\inst|valor_interno\(5) & (((\inst|valor_interno\(4))))) # (!\inst|valor_interno\(5) & ((\inst|valor_interno\(4) & (\inst6|mem~203_q\)) # (!\inst|valor_interno\(4) & ((!\inst6|mem~75_q\)))))
 
 -- pragma translate_off
 GENERIC MAP (
-	lut_mask => "1110010111100000",
+	lut_mask => "1110000011100101",
 	sum_lutc_input => "datac")
 -- pragma translate_on
 PORT MAP (
@@ -62745,9 +62531,9 @@ PORT MAP (
 	devpor => ww_devpor,
 	q => \inst6|mem~171_q\);
 
-\inst6|mem~3739\ : fiftyfivenm_lcell_comb
+\inst6|mem~3728\ : fiftyfivenm_lcell_comb
 -- Equation(s):
--- \inst6|mem~3739_combout\ = !\BusAlta|PortR[2]~20_combout\
+-- \inst6|mem~3728_combout\ = !\BusAlta|PortR[2]~20_combout\
 
 -- pragma translate_off
 GENERIC MAP (
@@ -62756,7 +62542,7 @@ GENERIC MAP (
 -- pragma translate_on
 PORT MAP (
 	dataa => \BusAlta|PortR[2]~20_combout\,
-	combout => \inst6|mem~3739_combout\);
+	combout => \inst6|mem~3728_combout\);
 
 \inst6|mem~43\ : dffeas
 -- pragma translate_off
@@ -62766,7 +62552,7 @@ GENERIC MAP (
 -- pragma translate_on
 PORT MAP (
 	clk => \ALT_INV_CLK~input_o\,
-	d => \inst6|mem~3739_combout\,
+	d => \inst6|mem~3728_combout\,
 	ena => \inst6|mem~3626_combout\,
 	devclrn => ww_devclrn,
 	devpor => ww_devpor,
@@ -63158,19 +62944,6 @@ PORT MAP (
 	devpor => ww_devpor,
 	q => \inst6|mem~651_q\);
 
-\inst6|mem~3740\ : fiftyfivenm_lcell_comb
--- Equation(s):
--- \inst6|mem~3740_combout\ = !\BusAlta|PortR[2]~20_combout\
-
--- pragma translate_off
-GENERIC MAP (
-	lut_mask => "0101010101010101",
-	sum_lutc_input => "datac")
--- pragma translate_on
-PORT MAP (
-	dataa => \BusAlta|PortR[2]~20_combout\,
-	combout => \inst6|mem~3740_combout\);
-
 \inst6|mem~139\ : dffeas
 -- pragma translate_off
 GENERIC MAP (
@@ -63179,7 +62952,7 @@ GENERIC MAP (
 -- pragma translate_on
 PORT MAP (
 	clk => \ALT_INV_CLK~input_o\,
-	d => \inst6|mem~3740_combout\,
+	d => \BusAlta|PortR[2]~20_combout\,
 	ena => \inst6|mem~3627_combout\,
 	devclrn => ww_devclrn,
 	devpor => ww_devpor,
@@ -63187,11 +62960,11 @@ PORT MAP (
 
 \inst6|mem~3077\ : fiftyfivenm_lcell_comb
 -- Equation(s):
--- \inst6|mem~3077_combout\ = (\inst|valor_interno\(7) & (((\inst|valor_interno\(6))))) # (!\inst|valor_interno\(7) & ((\inst|valor_interno\(6) & (\inst6|mem~651_q\)) # (!\inst|valor_interno\(6) & ((!\inst6|mem~139_q\)))))
+-- \inst6|mem~3077_combout\ = (\inst|valor_interno\(7) & (((\inst|valor_interno\(6))))) # (!\inst|valor_interno\(7) & ((\inst|valor_interno\(6) & (\inst6|mem~651_q\)) # (!\inst|valor_interno\(6) & ((\inst6|mem~139_q\)))))
 
 -- pragma translate_off
 GENERIC MAP (
-	lut_mask => "1110000011100101",
+	lut_mask => "1110010111100000",
 	sum_lutc_input => "datac")
 -- pragma translate_on
 PORT MAP (
@@ -66799,19 +66572,6 @@ PORT MAP (
 	devpor => ww_devpor,
 	q => \inst6|mem~348_q\);
 
-\inst6|mem~3729\ : fiftyfivenm_lcell_comb
--- Equation(s):
--- \inst6|mem~3729_combout\ = !\BusAlta|PortR[3]~18_combout\
-
--- pragma translate_off
-GENERIC MAP (
-	lut_mask => "0101010101010101",
-	sum_lutc_input => "datac")
--- pragma translate_on
-PORT MAP (
-	dataa => \BusAlta|PortR[3]~18_combout\,
-	combout => \inst6|mem~3729_combout\);
-
 \inst6|mem~92\ : dffeas
 -- pragma translate_off
 GENERIC MAP (
@@ -66820,7 +66580,7 @@ GENERIC MAP (
 -- pragma translate_on
 PORT MAP (
 	clk => \ALT_INV_CLK~input_o\,
-	d => \inst6|mem~3729_combout\,
+	d => \BusAlta|PortR[3]~18_combout\,
 	ena => \inst6|mem~3613_combout\,
 	devclrn => ww_devclrn,
 	devpor => ww_devpor,
@@ -66828,11 +66588,11 @@ PORT MAP (
 
 \inst6|mem~2829\ : fiftyfivenm_lcell_comb
 -- Equation(s):
--- \inst6|mem~2829_combout\ = (\inst|valor_interno\(4) & (((\inst|valor_interno\(5))))) # (!\inst|valor_interno\(4) & ((\inst|valor_interno\(5) & (\inst6|mem~348_q\)) # (!\inst|valor_interno\(5) & ((!\inst6|mem~92_q\)))))
+-- \inst6|mem~2829_combout\ = (\inst|valor_interno\(4) & (((\inst|valor_interno\(5))))) # (!\inst|valor_interno\(4) & ((\inst|valor_interno\(5) & (\inst6|mem~348_q\)) # (!\inst|valor_interno\(5) & ((\inst6|mem~92_q\)))))
 
 -- pragma translate_off
 GENERIC MAP (
-	lut_mask => "1110000011100101",
+	lut_mask => "1110010111100000",
 	sum_lutc_input => "datac")
 -- pragma translate_on
 PORT MAP (
@@ -67284,19 +67044,6 @@ PORT MAP (
 	devpor => ww_devpor,
 	q => \inst6|mem~356_q\);
 
-\inst6|mem~3730\ : fiftyfivenm_lcell_comb
--- Equation(s):
--- \inst6|mem~3730_combout\ = !\BusAlta|PortR[3]~18_combout\
-
--- pragma translate_off
-GENERIC MAP (
-	lut_mask => "0101010101010101",
-	sum_lutc_input => "datac")
--- pragma translate_on
-PORT MAP (
-	dataa => \BusAlta|PortR[3]~18_combout\,
-	combout => \inst6|mem~3730_combout\);
-
 \inst6|mem~100\ : dffeas
 -- pragma translate_off
 GENERIC MAP (
@@ -67305,7 +67052,7 @@ GENERIC MAP (
 -- pragma translate_on
 PORT MAP (
 	clk => \ALT_INV_CLK~input_o\,
-	d => \inst6|mem~3730_combout\,
+	d => \BusAlta|PortR[3]~18_combout\,
 	ena => \inst6|mem~3616_combout\,
 	devclrn => ww_devclrn,
 	devpor => ww_devpor,
@@ -67313,11 +67060,11 @@ PORT MAP (
 
 \inst6|mem~2841\ : fiftyfivenm_lcell_comb
 -- Equation(s):
--- \inst6|mem~2841_combout\ = (\inst|valor_interno\(4) & (((\inst|valor_interno\(5))))) # (!\inst|valor_interno\(4) & ((\inst|valor_interno\(5) & (\inst6|mem~356_q\)) # (!\inst|valor_interno\(5) & ((!\inst6|mem~100_q\)))))
+-- \inst6|mem~2841_combout\ = (\inst|valor_interno\(4) & (((\inst|valor_interno\(5))))) # (!\inst|valor_interno\(4) & ((\inst|valor_interno\(5) & (\inst6|mem~356_q\)) # (!\inst|valor_interno\(5) & ((\inst6|mem~100_q\)))))
 
 -- pragma translate_off
 GENERIC MAP (
-	lut_mask => "1110000011100101",
+	lut_mask => "1110010111100000",
 	sum_lutc_input => "datac")
 -- pragma translate_on
 PORT MAP (
@@ -67489,19 +67236,6 @@ PORT MAP (
 	devpor => ww_devpor,
 	q => \inst6|mem~260_q\);
 
-\inst6|mem~3731\ : fiftyfivenm_lcell_comb
--- Equation(s):
--- \inst6|mem~3731_combout\ = !\BusAlta|PortR[3]~18_combout\
-
--- pragma translate_off
-GENERIC MAP (
-	lut_mask => "0101010101010101",
-	sum_lutc_input => "datac")
--- pragma translate_on
-PORT MAP (
-	dataa => \BusAlta|PortR[3]~18_combout\,
-	combout => \inst6|mem~3731_combout\);
-
 \inst6|mem~132\ : dffeas
 -- pragma translate_off
 GENERIC MAP (
@@ -67510,7 +67244,7 @@ GENERIC MAP (
 -- pragma translate_on
 PORT MAP (
 	clk => \ALT_INV_CLK~input_o\,
-	d => \inst6|mem~3731_combout\,
+	d => \BusAlta|PortR[3]~18_combout\,
 	ena => \inst6|mem~3619_combout\,
 	devclrn => ww_devclrn,
 	devpor => ww_devpor,
@@ -67518,11 +67252,11 @@ PORT MAP (
 
 \inst6|mem~2846\ : fiftyfivenm_lcell_comb
 -- Equation(s):
--- \inst6|mem~2846_combout\ = (\inst|valor_interno\(5) & (((\inst|valor_interno\(4))))) # (!\inst|valor_interno\(5) & ((\inst|valor_interno\(4) & (\inst6|mem~260_q\)) # (!\inst|valor_interno\(4) & ((!\inst6|mem~132_q\)))))
+-- \inst6|mem~2846_combout\ = (\inst|valor_interno\(5) & (((\inst|valor_interno\(4))))) # (!\inst|valor_interno\(5) & ((\inst|valor_interno\(4) & (\inst6|mem~260_q\)) # (!\inst|valor_interno\(4) & ((\inst6|mem~132_q\)))))
 
 -- pragma translate_off
 GENERIC MAP (
-	lut_mask => "1110000011100101",
+	lut_mask => "1110010111100000",
 	sum_lutc_input => "datac")
 -- pragma translate_on
 PORT MAP (
@@ -67606,6 +67340,19 @@ PORT MAP (
 	devpor => ww_devpor,
 	q => \inst6|mem~180_q\);
 
+\inst6|mem~3722\ : fiftyfivenm_lcell_comb
+-- Equation(s):
+-- \inst6|mem~3722_combout\ = !\BusAlta|PortR[3]~18_combout\
+
+-- pragma translate_off
+GENERIC MAP (
+	lut_mask => "0101010101010101",
+	sum_lutc_input => "datac")
+-- pragma translate_on
+PORT MAP (
+	dataa => \BusAlta|PortR[3]~18_combout\,
+	combout => \inst6|mem~3722_combout\);
+
 \inst6|mem~52\ : dffeas
 -- pragma translate_off
 GENERIC MAP (
@@ -67614,7 +67361,7 @@ GENERIC MAP (
 -- pragma translate_on
 PORT MAP (
 	clk => \ALT_INV_CLK~input_o\,
-	d => \BusAlta|PortR[3]~18_combout\,
+	d => \inst6|mem~3722_combout\,
 	ena => \inst6|mem~3623_combout\,
 	devclrn => ww_devclrn,
 	devpor => ww_devpor,
@@ -67622,11 +67369,11 @@ PORT MAP (
 
 \inst6|mem~2849\ : fiftyfivenm_lcell_comb
 -- Equation(s):
--- \inst6|mem~2849_combout\ = (\inst|valor_interno\(5) & (((\inst|valor_interno\(4))))) # (!\inst|valor_interno\(5) & ((\inst|valor_interno\(4) & (\inst6|mem~180_q\)) # (!\inst|valor_interno\(4) & ((\inst6|mem~52_q\)))))
+-- \inst6|mem~2849_combout\ = (\inst|valor_interno\(5) & (((\inst|valor_interno\(4))))) # (!\inst|valor_interno\(5) & ((\inst|valor_interno\(4) & (\inst6|mem~180_q\)) # (!\inst|valor_interno\(4) & ((!\inst6|mem~52_q\)))))
 
 -- pragma translate_off
 GENERIC MAP (
-	lut_mask => "1110010111100000",
+	lut_mask => "1110000011100101",
 	sum_lutc_input => "datac")
 -- pragma translate_on
 PORT MAP (
@@ -67754,19 +67501,6 @@ PORT MAP (
 	datad => \inst6|mem~468_q\,
 	combout => \inst6|mem~2852_combout\);
 
-\inst6|mem~3732\ : fiftyfivenm_lcell_comb
--- Equation(s):
--- \inst6|mem~3732_combout\ = !\BusAlta|PortR[3]~18_combout\
-
--- pragma translate_off
-GENERIC MAP (
-	lut_mask => "0101010101010101",
-	sum_lutc_input => "datac")
--- pragma translate_on
-PORT MAP (
-	dataa => \BusAlta|PortR[3]~18_combout\,
-	combout => \inst6|mem~3732_combout\);
-
 \inst6|mem~148\ : dffeas
 -- pragma translate_off
 GENERIC MAP (
@@ -67775,7 +67509,7 @@ GENERIC MAP (
 -- pragma translate_on
 PORT MAP (
 	clk => \ALT_INV_CLK~input_o\,
-	d => \inst6|mem~3732_combout\,
+	d => \BusAlta|PortR[3]~18_combout\,
 	ena => \inst6|mem~3605_combout\,
 	devclrn => ww_devclrn,
 	devpor => ww_devpor,
@@ -67841,11 +67575,11 @@ PORT MAP (
 
 \inst6|mem~2854\ : fiftyfivenm_lcell_comb
 -- Equation(s):
--- \inst6|mem~2854_combout\ = (\inst|valor_interno\(4) & ((\inst6|mem~2853_combout\ & ((\inst6|mem~404_q\))) # (!\inst6|mem~2853_combout\ & (!\inst6|mem~148_q\)))) # (!\inst|valor_interno\(4) & (((\inst6|mem~2853_combout\))))
+-- \inst6|mem~2854_combout\ = (\inst|valor_interno\(4) & ((\inst6|mem~2853_combout\ & ((\inst6|mem~404_q\))) # (!\inst6|mem~2853_combout\ & (\inst6|mem~148_q\)))) # (!\inst|valor_interno\(4) & (((\inst6|mem~2853_combout\))))
 
 -- pragma translate_off
 GENERIC MAP (
-	lut_mask => "1111010000110100",
+	lut_mask => "1111100000111000",
 	sum_lutc_input => "datac")
 -- pragma translate_on
 PORT MAP (
@@ -67899,19 +67633,6 @@ PORT MAP (
 	devpor => ww_devpor,
 	q => \inst6|mem~244_q\);
 
-\inst6|mem~3733\ : fiftyfivenm_lcell_comb
--- Equation(s):
--- \inst6|mem~3733_combout\ = !\BusAlta|PortR[3]~18_combout\
-
--- pragma translate_off
-GENERIC MAP (
-	lut_mask => "0101010101010101",
-	sum_lutc_input => "datac")
--- pragma translate_on
-PORT MAP (
-	dataa => \BusAlta|PortR[3]~18_combout\,
-	combout => \inst6|mem~3733_combout\);
-
 \inst6|mem~116\ : dffeas
 -- pragma translate_off
 GENERIC MAP (
@@ -67920,7 +67641,7 @@ GENERIC MAP (
 -- pragma translate_on
 PORT MAP (
 	clk => \ALT_INV_CLK~input_o\,
-	d => \inst6|mem~3733_combout\,
+	d => \BusAlta|PortR[3]~18_combout\,
 	ena => \inst6|mem~3622_combout\,
 	devclrn => ww_devclrn,
 	devpor => ww_devpor,
@@ -67928,11 +67649,11 @@ PORT MAP (
 
 \inst6|mem~2856\ : fiftyfivenm_lcell_comb
 -- Equation(s):
--- \inst6|mem~2856_combout\ = (\inst|valor_interno\(5) & (((\inst|valor_interno\(4))))) # (!\inst|valor_interno\(5) & ((\inst|valor_interno\(4) & (\inst6|mem~244_q\)) # (!\inst|valor_interno\(4) & ((!\inst6|mem~116_q\)))))
+-- \inst6|mem~2856_combout\ = (\inst|valor_interno\(5) & (((\inst|valor_interno\(4))))) # (!\inst|valor_interno\(5) & ((\inst|valor_interno\(4) & (\inst6|mem~244_q\)) # (!\inst|valor_interno\(4) & ((\inst6|mem~116_q\)))))
 
 -- pragma translate_off
 GENERIC MAP (
-	lut_mask => "1110000011100101",
+	lut_mask => "1110010111100000",
 	sum_lutc_input => "datac")
 -- pragma translate_on
 PORT MAP (
@@ -68120,6 +67841,19 @@ PORT MAP (
 	devpor => ww_devpor,
 	q => \inst6|mem~204_q\);
 
+\inst6|mem~3723\ : fiftyfivenm_lcell_comb
+-- Equation(s):
+-- \inst6|mem~3723_combout\ = !\BusAlta|PortR[3]~18_combout\
+
+-- pragma translate_off
+GENERIC MAP (
+	lut_mask => "0101010101010101",
+	sum_lutc_input => "datac")
+-- pragma translate_on
+PORT MAP (
+	dataa => \BusAlta|PortR[3]~18_combout\,
+	combout => \inst6|mem~3723_combout\);
+
 \inst6|mem~76\ : dffeas
 -- pragma translate_off
 GENERIC MAP (
@@ -68128,7 +67862,7 @@ GENERIC MAP (
 -- pragma translate_on
 PORT MAP (
 	clk => \ALT_INV_CLK~input_o\,
-	d => \BusAlta|PortR[3]~18_combout\,
+	d => \inst6|mem~3723_combout\,
 	ena => \inst6|mem~3624_combout\,
 	devclrn => ww_devclrn,
 	devpor => ww_devpor,
@@ -68136,11 +67870,11 @@ PORT MAP (
 
 \inst6|mem~2862\ : fiftyfivenm_lcell_comb
 -- Equation(s):
--- \inst6|mem~2862_combout\ = (\inst|valor_interno\(5) & (((\inst|valor_interno\(4))))) # (!\inst|valor_interno\(5) & ((\inst|valor_interno\(4) & (\inst6|mem~204_q\)) # (!\inst|valor_interno\(4) & ((\inst6|mem~76_q\)))))
+-- \inst6|mem~2862_combout\ = (\inst|valor_interno\(5) & (((\inst|valor_interno\(4))))) # (!\inst|valor_interno\(5) & ((\inst|valor_interno\(4) & (\inst6|mem~204_q\)) # (!\inst|valor_interno\(4) & ((!\inst6|mem~76_q\)))))
 
 -- pragma translate_off
 GENERIC MAP (
-	lut_mask => "1110010111100000",
+	lut_mask => "1110000011100101",
 	sum_lutc_input => "datac")
 -- pragma translate_on
 PORT MAP (

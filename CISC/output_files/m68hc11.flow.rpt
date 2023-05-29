@@ -1,5 +1,5 @@
 Flow report for m68hc11
-Sun May 28 18:37:36 2023
+Mon May 29 00:19:14 2023
 Quartus Prime Version 22.1std.0 Build 915 10/25/2022 SC Lite Edition
 
 
@@ -41,7 +41,7 @@ https://fpgasoftware.intel.com/eula.
 +-------------------------------------------------------------------------------------+
 ; Flow Summary                                                                        ;
 +------------------------------------+------------------------------------------------+
-; Flow Status                        ; Successful - Sun May 28 18:37:36 2023          ;
+; Flow Status                        ; Successful - Mon May 29 00:19:14 2023          ;
 ; Quartus Prime Version              ; 22.1std.0 Build 915 10/25/2022 SC Lite Edition ;
 ; Revision Name                      ; m68hc11                                        ;
 ; Top-level Entity Name              ; m68hc11                                        ;
@@ -49,7 +49,7 @@ https://fpgasoftware.intel.com/eula.
 ; Device                             ; 10M50DDF484I7G                                 ;
 ; Timing Models                      ; Final                                          ;
 ; Total logic elements               ; 4,339                                          ;
-;     Total combinational functions  ; 2,337                                          ;
+;     Total combinational functions  ; 2,318                                          ;
 ;     Dedicated logic registers      ; 2,217                                          ;
 ; Total registers                    ; 2217                                           ;
 ; Total pins                         ; 130                                            ;
@@ -67,7 +67,7 @@ https://fpgasoftware.intel.com/eula.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 05/28/2023 18:36:43 ;
+; Start date & time ; 05/29/2023 00:18:40 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; m68hc11             ;
 +-------------------+---------------------+
@@ -78,7 +78,7 @@ https://fpgasoftware.intel.com/eula.
 +-------------------------------------+----------------------------------------+---------------+-------------+----------------+
 ; Assignment Name                     ; Value                                  ; Default Value ; Entity Name ; Section Id     ;
 +-------------------------------------+----------------------------------------+---------------+-------------+----------------+
-; COMPILER_SIGNATURE_ID               ; 10995770589199.168532060322640         ; --            ; --          ; --             ;
+; COMPILER_SIGNATURE_ID               ; 4681950799497.168534112024020          ; --            ; --          ; --             ;
 ; EDA_OUTPUT_DATA_FORMAT              ; Vhdl                                   ; --            ; --          ; eda_simulation ;
 ; EDA_SIMULATION_TOOL                 ; Questa Intel FPGA (VHDL)               ; <None>        ; --          ; --             ;
 ; MAX_CORE_JUNCTION_TEMP              ; 100                                    ; --            ; --          ; --             ;
@@ -97,30 +97,30 @@ https://fpgasoftware.intel.com/eula.
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis ; 00:00:38     ; 1.0                     ; 4890 MB             ; 00:00:59                           ;
-; EDA Netlist Writer   ; 00:00:02     ; 1.0                     ; 4649 MB             ; 00:00:02                           ;
-; EDA Netlist Writer   ; 00:00:02     ; 1.0                     ; 4665 MB             ; 00:00:02                           ;
-; Total                ; 00:00:42     ; --                      ; --                  ; 00:01:03                           ;
+; Analysis & Synthesis ; 00:00:20     ; 1.0                     ; 4857 MB             ; 00:00:28                           ;
+; EDA Netlist Writer   ; 00:00:01     ; 1.0                     ; 4649 MB             ; 00:00:01                           ;
+; EDA Netlist Writer   ; 00:00:01     ; 1.0                     ; 4662 MB             ; 00:00:01                           ;
+; Total                ; 00:00:22     ; --                      ; --                  ; 00:00:30                           ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
-+------------------------------------------------------------------------------------+
-; Flow OS Summary                                                                    ;
-+----------------------+------------------+------------+------------+----------------+
-; Module Name          ; Machine Hostname ; OS Name    ; OS Version ; Processor type ;
-+----------------------+------------------+------------+------------+----------------+
-; Analysis & Synthesis ; DESKTOP-M882MLC  ; Windows 10 ; 10.0       ; x86_64         ;
-; EDA Netlist Writer   ; DESKTOP-M882MLC  ; Windows 10 ; 10.0       ; x86_64         ;
-; EDA Netlist Writer   ; DESKTOP-M882MLC  ; Windows 10 ; 10.0       ; x86_64         ;
-+----------------------+------------------+------------+------------+----------------+
++--------------------------------------------------------------------------------------+
+; Flow OS Summary                                                                      ;
++----------------------+--------------------+------------+------------+----------------+
+; Module Name          ; Machine Hostname   ; OS Name    ; OS Version ; Processor type ;
++----------------------+--------------------+------------+------------+----------------+
+; Analysis & Synthesis ; Eduardo-Escritorio ; Windows 10 ; 10.0       ; x86_64         ;
+; EDA Netlist Writer   ; Eduardo-Escritorio ; Windows 10 ; 10.0       ; x86_64         ;
+; EDA Netlist Writer   ; Eduardo-Escritorio ; Windows 10 ; 10.0       ; x86_64         ;
++----------------------+--------------------+------------+------------+----------------+
 
 
 ------------
 ; Flow Log ;
 ------------
 quartus_map --read_settings_files=on --write_settings_files=off m68hc11 -c m68hc11
-quartus_eda --gen_testbench --tool=modelsim_oem --format=vhdl --write_settings_files=off m68hc11 -c m68hc11 --vector_source=C:/Arquitectura/ProyectoArqui/CISC/Waveform1.vwf --testbench_file=C:/Arquitectura/ProyectoArqui/CISC/simulation/qsim/Waveform1.vwf.vht
-quartus_eda --write_settings_files=off --simulation=on --functional=on --flatten_buses=off --tool=modelsim_oem --format=vhdl --output_directory=C:/Arquitectura/ProyectoArqui/CISC/simulation/qsim/ m68hc11 -c m68hc11
+quartus_eda --gen_testbench --tool=modelsim_oem --format=vhdl --write_settings_files=off m68hc11 -c m68hc11 --vector_source=C:/Users/Eduardo/Desktop/Practica_7/ProyectoArqui/CISC/Waveform.vwf --testbench_file=C:/Users/Eduardo/Desktop/Practica_7/ProyectoArqui/CISC/simulation/qsim/Waveform.vwf.vht
+quartus_eda --write_settings_files=off --simulation=on --functional=on --flatten_buses=off --tool=modelsim_oem --format=vhdl --output_directory=C:/Users/Eduardo/Desktop/Practica_7/ProyectoArqui/CISC/simulation/qsim/ m68hc11 -c m68hc11
 
 
 

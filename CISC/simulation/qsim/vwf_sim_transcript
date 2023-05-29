@@ -1,13 +1,13 @@
 Determining the location of the ModelSim executable...
 
-Using: C:/intelFPGA_lite/modelsim_ase/win32aloem
+Using: C:/intelFPGA/20.1/modelsim_ase/win32aloem
 
 To specify a ModelSim executable directory, select: Tools -> Options -> EDA Tool Options
 Note: if both Questa Intel FPGA Edition and ModelSim executables are available, Questa Intel FPGA Edition will be used.
 
 **** Generating the ModelSim Testbench ****
 
-quartus_eda --gen_testbench --tool=modelsim_oem --format=vhdl --write_settings_files=off m68hc11 -c m68hc11 --vector_source="C:/Arquitectura/ProyectoArqui/CISC/Waveform1.vwf" --testbench_file="C:/Arquitectura/ProyectoArqui/CISC/simulation/qsim/Waveform1.vwf.vht"
+quartus_eda --gen_testbench --tool=modelsim_oem --format=vhdl --write_settings_files=off m68hc11 -c m68hc11 --vector_source="C:/Users/Eduardo/Desktop/Practica_7/ProyectoArqui/CISC/Waveform.vwf" --testbench_file="C:/Users/Eduardo/Desktop/Practica_7/ProyectoArqui/CISC/simulation/qsim/Waveform.vwf.vht"
 
 Info: *******************************************************************
 Info: Running Quartus Prime EDA Netlist Writer
@@ -26,22 +26,22 @@ Info: Running Quartus Prime EDA Netlist Writer
     Info: Intel and sold by Intel or its authorized distributors.  Please
     Info: refer to the applicable agreement for further details, at
     Info: https://fpgasoftware.intel.com/eula.
-    Info: Processing started: Sun May 28 18:37:31 2023
-Info: Command: quartus_eda --gen_testbench --tool=modelsim_oem --format=vhdl --write_settings_files=off m68hc11 -c m68hc11 --vector_source=C:/Arquitectura/ProyectoArqui/CISC/Waveform1.vwf --testbench_file=C:/Arquitectura/ProyectoArqui/CISC/simulation/qsim/Waveform1.vwf.vht
+    Info: Processing started: Mon May 29 00:19:11 2023
+Info: Command: quartus_eda --gen_testbench --tool=modelsim_oem --format=vhdl --write_settings_files=off m68hc11 -c m68hc11 --vector_source=C:/Users/Eduardo/Desktop/Practica_7/ProyectoArqui/CISC/Waveform.vwf --testbench_file=C:/Users/Eduardo/Desktop/Practica_7/ProyectoArqui/CISC/simulation/qsim/Waveform.vwf.vht
 Info (119006): Selected device 10M50DDF484I7G for design "m68hc11"
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 
-h files
+tor source file when writing test bench files
 
-ug_Yupa[7]" in vector source file when writing test bench files
+ing (201005): Ignoring output pin "Debug_Yupa[7]" in vector source file when writing test bench files
 
-hen writing test bench files
+pin "PC_D[14]" in vector source file when writing test bench files
 
 Completed successfully. 
 
 **** Generating the functional simulation netlist ****
 
-quartus_eda --write_settings_files=off --simulation --functional=on --flatten_buses=off --tool=modelsim_oem --format=vhdl --output_directory="C:/Arquitectura/ProyectoArqui/CISC/simulation/qsim/" m68hc11 -c m68hc11
+quartus_eda --write_settings_files=off --simulation --functional=on --flatten_buses=off --tool=modelsim_oem --format=vhdl --output_directory="C:/Users/Eduardo/Desktop/Practica_7/ProyectoArqui/CISC/simulation/qsim/" m68hc11 -c m68hc11
 
 Info: *******************************************************************
 Info: Running Quartus Prime EDA Netlist Writer
@@ -60,28 +60,28 @@ Info: Running Quartus Prime EDA Netlist Writer
     Info: Intel and sold by Intel or its authorized distributors.  Please
     Info: refer to the applicable agreement for further details, at
     Info: https://fpgasoftware.intel.com/eula.
-    Info: Processing started: Sun May 28 18:37:34 2023
-Info: Command: quartus_eda --write_settings_files=off --simulation=on --functional=on --flatten_buses=off --tool=modelsim_oem --format=vhdl --output_directory=C:/Arquitectura/ProyectoArqui/CISC/simulation/qsim/ m68hc11 -c m68hc11
+    Info: Processing started: Mon May 29 00:19:13 2023
+Info: Command: quartus_eda --write_settings_files=off --simulation=on --functional=on --flatten_buses=off --tool=modelsim_oem --format=vhdl --output_directory=C:/Users/Eduardo/Desktop/Practica_7/ProyectoArqui/CISC/simulation/qsim/ m68hc11 -c m68hc11
 Info (119006): Selected device 10M50DDF484I7G for design "m68hc11"
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
-Info (204019): Generated file m68hc11.vho in folder "C:/Arquitectura/ProyectoArqui/CISC/simulation/qsim//" for EDA simulation tool
+Info (204019): Generated file m68hc11.vho in folder "C:/Users/Eduardo/Desktop/Practica_7/ProyectoArqui/CISC/simulation/qsim//" for EDA simulation tool
 Info: Quartus Prime EDA Netlist Writer was successful. 0 errors, 1 warning
-    Info: Peak virtual memory: 4665 megabytes
-    Info: Processing ended: Sun May 28 18:37:36 2023
-    Info: Elapsed time: 00:00:02
-    Info: Total CPU time (on all processors): 00:00:02
+    Info: Peak virtual memory: 4662 megabytes
+    Info: Processing ended: Mon May 29 00:19:14 2023
+    Info: Elapsed time: 00:00:01
+    Info: Total CPU time (on all processors): 00:00:01
 
 Completed successfully. 
 
 **** Generating the ModelSim .do script ****
 
-C:/Arquitectura/ProyectoArqui/CISC/simulation/qsim/m68hc11.do generated.
+C:/Users/Eduardo/Desktop/Practica_7/ProyectoArqui/CISC/simulation/qsim/m68hc11.do generated.
 
 Completed successfully. 
 
 **** Running the ModelSim simulation ****
 
-C:/intelFPGA_lite/modelsim_ase/win32aloem/vsim -c -do m68hc11.do
+C:/intelFPGA/20.1/modelsim_ase/win32aloem/vsim -c -do m68hc11.do
 
 Reading pref.tcl
 
@@ -95,7 +95,7 @@ Reading pref.tcl
 
 # Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
 
-# Start time: 18:37:39 on May 28,2023
+# Start time: 00:19:16 on May 29,2023
 
 # vcom -work work m68hc11.vho 
 
@@ -121,14 +121,15 @@ Reading pref.tcl
 
 # -- Compiling architecture structure of m68hc11
 
-# End time: 18:37:42 on May 28,2023, Elapsed time: 0:00:03
+# End time: 00:19:17 on May 29,2023, Elapsed time: 0:00:01
 
 # Errors: 0, Warnings: 0
 
 # Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
 
-# Start time: 18:37:42 on May 28,2023
-# vcom -work work Waveform1.vwf.vht 
+# Start time: 00:19:17 on May 29,2023
+
+# vcom -work work Waveform.vwf.vht 
 
 # -- Loading package STANDARD
 
@@ -140,12 +141,12 @@ Reading pref.tcl
 
 # -- Compiling architecture m68hc11_arch of m68hc11_vhd_vec_tst
 
-# End time: 18:37:43 on May 28,2023, Elapsed time: 0:00:01
+# End time: 00:19:18 on May 29,2023, Elapsed time: 0:00:01
 
 # Errors: 0, Warnings: 0
 
 # vsim -c -t 1ps -L fiftyfivenm -L altera -L altera_mf -L 220model -L sgate -L altera_lnsim work.m68hc11_vhd_vec_tst 
-# Start time: 18:37:43 on May 28,2023
+# Start time: 00:19:18 on May 29,2023
 # Loading std.standard
 # Loading std.textio(body)
 # Loading ieee.std_logic_1164(body)
@@ -161,45 +162,31 @@ Reading pref.tcl
 # Loading fiftyfivenm.fiftyfivenm_io_ibuf(behavior)
 # Loading fiftyfivenm.fiftyfivenm_lcell_comb(vital_lcell_comb)
 # Loading altera.dffeas(vital_dffeas)
-# ** Warning: Design size of 599281 statements exceeds ModelSim-Intel FPGA Starter Edition recommended capacity.
+# ** Warning: Design size of 597058 statements exceeds ModelSim-Intel FPGA Starter Edition recommended capacity.
 # Expect performance to be adversely affected.
 
 # after#33
 
-# Simulation time: 0 ps
+# Simulation time: 60000 ps
 
-# Simulation time: 0 ps
+# Simulation time: 60000 ps
 
-# Simulation time: 0 ps
+# Simulation time: 60000 ps
 
-# Simulation time: 0 ps
-
-# Simulation time: 0 ps
-
-# Simulation time: 0 ps
-
-# Simulation time: 0 ps
-
-# Simulation time: 0 ps
-
-# Simulation time: 700000 ps
-
-# Simulation time: 700000 ps
-
-# End time: 18:38:14 on May 28,2023, Elapsed time: 0:00:31
+# End time: 00:19:29 on May 29,2023, Elapsed time: 0:00:11
 # Errors: 0, Warnings: 1
 
 Completed successfully. 
 
 **** Converting ModelSim VCD to vector waveform ****
 
-Reading C:/Arquitectura/ProyectoArqui/CISC/Waveform1.vwf...
+Reading C:/Users/Eduardo/Desktop/Practica_7/ProyectoArqui/CISC/Waveform.vwf...
 
-Reading C:/Arquitectura/ProyectoArqui/CISC/simulation/qsim/m68hc11.msim.vcd...
+Reading C:/Users/Eduardo/Desktop/Practica_7/ProyectoArqui/CISC/simulation/qsim/m68hc11.msim.vcd...
 
 Processing channel transitions... 
 
-Writing the resulting VWF to C:/Arquitectura/ProyectoArqui/CISC/simulation/qsim/m68hc11_20230528183814.sim.vwf
+Writing the resulting VWF to C:/Users/Eduardo/Desktop/Practica_7/ProyectoArqui/CISC/simulation/qsim/m68hc11_20230529001929.sim.vwf
 
 Finished VCD to VWF conversion.
 
