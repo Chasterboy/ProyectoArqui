@@ -21,14 +21,16 @@ DEPTH=256;
 ADDRESS_RADIX=UNS;
 DATA_RADIX=HEX;
 
+
 CONTENT BEGIN
-	0    :   86; --LDAA   
-	1    :   02;  
-	2    :   C6;  --LDAB 
-	3    :   05;  --LDAA EXT
-	4    :   7B;  
-	5    :   C6; --LDAA
-	6	 :   01;
-	7    :   1F; 
-	[8..255]  :   00;
+	0    :   B6; --LDAB EXT  
+	1    :   00;  
+	2    :   07;  --RES 18H
+	3    :   76;  --LDAA EXT
+	4    :   00;  
+	5    :   08; --TEMP 19H	
+	6    :   1B;
+	7    :   FA; --RES 18H
+    8    :   07; --TEMP 19H
+	[9..255]  :   00;
 END;

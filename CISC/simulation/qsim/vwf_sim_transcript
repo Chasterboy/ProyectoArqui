@@ -26,7 +26,7 @@ Info: Running Quartus Prime EDA Netlist Writer
     Info: Intel and sold by Intel or its authorized distributors.  Please
     Info: refer to the applicable agreement for further details, at
     Info: https://fpgasoftware.intel.com/eula.
-    Info: Processing started: Mon May 29 00:19:11 2023
+    Info: Processing started: Mon May 29 23:33:10 2023
 Info: Command: quartus_eda --gen_testbench --tool=modelsim_oem --format=vhdl --write_settings_files=off m68hc11 -c m68hc11 --vector_source=C:/Users/Eduardo/Desktop/Practica_7/ProyectoArqui/CISC/Waveform.vwf --testbench_file=C:/Users/Eduardo/Desktop/Practica_7/ProyectoArqui/CISC/simulation/qsim/Waveform.vwf.vht
 Info (119006): Selected device 10M50DDF484I7G for design "m68hc11"
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
@@ -60,16 +60,16 @@ Info: Running Quartus Prime EDA Netlist Writer
     Info: Intel and sold by Intel or its authorized distributors.  Please
     Info: refer to the applicable agreement for further details, at
     Info: https://fpgasoftware.intel.com/eula.
-    Info: Processing started: Mon May 29 00:19:13 2023
+    Info: Processing started: Mon May 29 23:33:11 2023
 Info: Command: quartus_eda --write_settings_files=off --simulation=on --functional=on --flatten_buses=off --tool=modelsim_oem --format=vhdl --output_directory=C:/Users/Eduardo/Desktop/Practica_7/ProyectoArqui/CISC/simulation/qsim/ m68hc11 -c m68hc11
 Info (119006): Selected device 10M50DDF484I7G for design "m68hc11"
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (204019): Generated file m68hc11.vho in folder "C:/Users/Eduardo/Desktop/Practica_7/ProyectoArqui/CISC/simulation/qsim//" for EDA simulation tool
 Info: Quartus Prime EDA Netlist Writer was successful. 0 errors, 1 warning
-    Info: Peak virtual memory: 4662 megabytes
-    Info: Processing ended: Mon May 29 00:19:14 2023
-    Info: Elapsed time: 00:00:01
-    Info: Total CPU time (on all processors): 00:00:01
+    Info: Peak virtual memory: 4665 megabytes
+    Info: Processing ended: Mon May 29 23:33:13 2023
+    Info: Elapsed time: 00:00:02
+    Info: Total CPU time (on all processors): 00:00:02
 
 Completed successfully. 
 
@@ -95,8 +95,7 @@ Reading pref.tcl
 
 # Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
 
-# Start time: 00:19:16 on May 29,2023
-
+# Start time: 23:33:14 on May 29,2023
 # vcom -work work m68hc11.vho 
 
 # -- Loading package STANDARD
@@ -121,13 +120,13 @@ Reading pref.tcl
 
 # -- Compiling architecture structure of m68hc11
 
-# End time: 00:19:17 on May 29,2023, Elapsed time: 0:00:01
+# End time: 23:33:16 on May 29,2023, Elapsed time: 0:00:02
 
 # Errors: 0, Warnings: 0
 
 # Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
 
-# Start time: 00:19:17 on May 29,2023
+# Start time: 23:33:16 on May 29,2023
 
 # vcom -work work Waveform.vwf.vht 
 
@@ -141,12 +140,12 @@ Reading pref.tcl
 
 # -- Compiling architecture m68hc11_arch of m68hc11_vhd_vec_tst
 
-# End time: 00:19:18 on May 29,2023, Elapsed time: 0:00:01
+# End time: 23:33:16 on May 29,2023, Elapsed time: 0:00:00
 
 # Errors: 0, Warnings: 0
 
 # vsim -c -t 1ps -L fiftyfivenm -L altera -L altera_mf -L 220model -L sgate -L altera_lnsim work.m68hc11_vhd_vec_tst 
-# Start time: 00:19:18 on May 29,2023
+# Start time: 23:33:16 on May 29,2023
 # Loading std.standard
 # Loading std.textio(body)
 # Loading ieee.std_logic_1164(body)
@@ -162,7 +161,7 @@ Reading pref.tcl
 # Loading fiftyfivenm.fiftyfivenm_io_ibuf(behavior)
 # Loading fiftyfivenm.fiftyfivenm_lcell_comb(vital_lcell_comb)
 # Loading altera.dffeas(vital_dffeas)
-# ** Warning: Design size of 597058 statements exceeds ModelSim-Intel FPGA Starter Edition recommended capacity.
+# ** Warning: Design size of 599255 statements exceeds ModelSim-Intel FPGA Starter Edition recommended capacity.
 # Expect performance to be adversely affected.
 
 # after#33
@@ -173,7 +172,7 @@ Reading pref.tcl
 
 # Simulation time: 60000 ps
 
-# End time: 00:19:29 on May 29,2023, Elapsed time: 0:00:11
+# End time: 23:33:26 on May 29,2023, Elapsed time: 0:00:10
 # Errors: 0, Warnings: 1
 
 Completed successfully. 
@@ -186,7 +185,7 @@ Reading C:/Users/Eduardo/Desktop/Practica_7/ProyectoArqui/CISC/simulation/qsim/m
 
 Processing channel transitions... 
 
-Writing the resulting VWF to C:/Users/Eduardo/Desktop/Practica_7/ProyectoArqui/CISC/simulation/qsim/m68hc11_20230529001929.sim.vwf
+Writing the resulting VWF to C:/Users/Eduardo/Desktop/Practica_7/ProyectoArqui/CISC/simulation/qsim/m68hc11_20230529233326.sim.vwf
 
 Finished VCD to VWF conversion.
 

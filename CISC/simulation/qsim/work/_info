@@ -59,7 +59,7 @@ R14
 R15
 R16
 Em68hc11
-Z17 w1685341154
+Z17 w1685424793
 R2
 R6
 R1
@@ -68,7 +68,7 @@ R3
 R4
 R5
 Z19 DPx6 altera 28 altera_primitives_components 0 22 ca:ehlQAg4;_gVV:^8MAg3
-!i122 184
+!i122 214
 Z20 dC:/Users/Eduardo/Desktop/Practica_7/ProyectoArqui/CISC/simulation/qsim
 R8
 R9
@@ -78,9 +78,9 @@ VKEUT_LD3]1L@>3=H5GTWC2
 !s100 5HnOfX1@6SW6L??iAmh@00
 R10
 32
-Z21 !s110 1685341156
+Z21 !s110 1685424795
 !i10b 1
-Z22 !s108 1685341156.000000
+Z22 !s108 1685424794.000000
 R13
 R14
 !i113 1
@@ -96,11 +96,11 @@ R4
 R5
 R19
 DEx4 work 7 m68hc11 0 22 KEUT_LD3]1L@>3=H5GTWC2
-!i122 184
-l4673
-L58 74295
-VPk`ah91:a?LSk<H:M[E5;0
-!s100 `c^aT`^K46?J4>gPGoISz1
+!i122 214
+l4694
+L58 74652
+V8ZlOk9;KXX0iH<L6_Z^dA3
+!s100 Mm?aaFffdnR<YFzFk_<DW3
 R10
 32
 R21
@@ -112,10 +112,10 @@ R14
 R15
 R16
 Em68hc11_vhd_vec_tst
-Z23 w1685341152
+Z23 w1685424791
 R4
 R5
-!i122 185
+!i122 215
 R20
 Z24 8Waveform.vwf.vht
 Z25 FWaveform.vwf.vht
@@ -125,9 +125,9 @@ VH5II2[k@6_6l]C^DEP`IC2
 !s100 5<h=nVP:_f9=k=GAgFJ_e3
 R10
 32
-Z26 !s110 1685341158
+Z26 !s110 1685424796
 !i10b 1
-Z27 !s108 1685341157.000000
+Z27 !s108 1685424796.000000
 Z28 !s90 -work|work|Waveform.vwf.vht|
 Z29 !s107 Waveform.vwf.vht|
 !i113 1
@@ -137,7 +137,7 @@ Am68hc11_arch
 R4
 R5
 Z30 DEx4 work 19 m68hc11_vhd_vec_tst 0 22 H5II2[k@6_6l]C^DEP`IC2
-!i122 185
+!i122 215
 l73
 Z31 L34 94
 Z32 VAO2EaBZSA55fKA1EYE31J2
